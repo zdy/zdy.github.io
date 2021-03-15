@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>P1n9</title>
+  
+  <subtitle>一切归零，重新出发</subtitle>
+  <link href="http://12679.top/atom.xml" rel="self"/>
+  
+  <link href="http://12679.top/"/>
+  <updated>2021-03-15T06:40:14.661Z</updated>
+  <id>http://12679.top/</id>
+  
+  <author>
+    <name>P1n9</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>汇编语言学习</title>
+    <link href="http://12679.top/2021/03/15/hui-bian-yu-yan-xue-xi/"/>
+    <id>http://12679.top/2021/03/15/hui-bian-yu-yan-xue-xi/</id>
+    <published>2021-03-15T06:30:36.000Z</published>
+    <updated>2021-03-15T06:40:14.661Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前序&quot;&gt;&lt;a href=&quot;#前序&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="二进制安全" scheme="http://12679.top/categories/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="汇编语言" scheme="http://12679.top/tags/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>编程训练1</title>
+    <link href="http://12679.top/2021/03/15/bian-cheng-xun-lian-1/"/>
+    <id>http://12679.top/2021/03/15/bian-cheng-xun-lian-1/</id>
+    <published>2021-03-15T06:30:22.000Z</published>
+    <updated>2021-03-15T06:39:09.918Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前序&quot;&gt;&lt;a href=&quot;#前序&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="机考刷题" scheme="http://12679.top/categories/%E6%9C%BA%E8%80%83%E5%88%B7%E9%A2%98/"/>
+    
+    
+    <category term="算法" scheme="http://12679.top/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="c++" scheme="http://12679.top/tags/c/"/>
+    
+    <category term="python" scheme="http://12679.top/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>openstack安装问题总结</title>
+    <link href="http://12679.top/2021/03/15/openstack-an-zhuang-wen-ti-zong-jie/"/>
+    <id>http://12679.top/2021/03/15/openstack-an-zhuang-wen-ti-zong-jie/</id>
+    <published>2021-03-15T06:30:05.000Z</published>
+    <updated>2021-03-15T06:37:41.775Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前序&quot;&gt;&lt;a href=&quot;#前序&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="系统问题解决" scheme="http://12679.top/categories/%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    
+    <category term="运维" scheme="http://12679.top/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+    <category term="openstack" scheme="http://12679.top/tags/openstack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>扬帆起航</title>
+    <link href="http://12679.top/2021/03/15/yang-fan-qi-hang/"/>
+    <id>http://12679.top/2021/03/15/yang-fan-qi-hang/</id>
+    <published>2021-03-15T06:27:04.000Z</published>
+    <updated>2021-03-15T06:35:27.497Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;心路历程&quot;&gt;&lt;a href=&quot;#心路历程&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="生活感悟" scheme="http://12679.top/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CTF-攻防世界Web题目4</title>
+    <link href="http://12679.top/2020/04/14/23/"/>
+    <id>http://12679.top/2020/04/14/23/</id>
+    <published>2020-04-14T10:49:14.000Z</published>
+    <updated>2020-04-14T11:49:28.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、fakebook&quot;&gt;&lt;a href=&quot;#一、fakebook&quot; class=&quot;headerlink&quot; title=&quot;一、fakebook&quot;&gt;&lt;/a&gt;一、&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Web安全" scheme="http://12679.top/categories/Web%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="web安全" scheme="http://12679.top/tags/web%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="CTF学习" scheme="http://12679.top/tags/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CTF-攻防世界Web题目3</title>
+    <link href="http://12679.top/2020/04/14/22/"/>
+    <id>http://12679.top/2020/04/14/22/</id>
+    <published>2020-04-14T10:49:06.000Z</published>
+    <updated>2020-04-14T11:49:50.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、easytornado&quot;&gt;&lt;a href=&quot;#一、easytornado&quot; class=&quot;headerlink&quot; title=&quot;一、easytornado&quot;&gt;&lt;/a&gt;一、&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Web安全" scheme="http://12679.top/categories/Web%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="web安全" scheme="http://12679.top/tags/web%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="CTF学习" scheme="http://12679.top/tags/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CTF-攻防世界Web题目2</title>
+    <link href="http://12679.top/2020/04/14/21/"/>
+    <id>http://12679.top/2020/04/14/21/</id>
+    <published>2020-04-14T10:09:38.000Z</published>
+    <updated>2020-04-14T11:50:44.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、PHP2&quot;&gt;&lt;a href=&quot;#一、PHP2&quot; class=&quot;headerlink&quot; title=&quot;一、PHP2&quot;&gt;&lt;/a&gt;一、&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Web安全" scheme="http://12679.top/categories/Web%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="web安全" scheme="http://12679.top/tags/web%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="CTF学习" scheme="http://12679.top/tags/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CTF-攻防世界Web题目1</title>
+    <link href="http://12679.top/2020/04/14/20/"/>
+    <id>http://12679.top/2020/04/14/20/</id>
+    <published>2020-04-14T10:09:21.000Z</published>
+    <updated>2020-04-14T11:51:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、web-php-rce-ThinkPHP远程代码执行&quot;&gt;&lt;a href=&quot;#一、web-php-rce-ThinkPHP远程代码执行&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Web安全" scheme="http://12679.top/categories/Web%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="web安全" scheme="http://12679.top/tags/web%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="CTF学习" scheme="http://12679.top/tags/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Wfuzz工具使用</title>
+    <link href="http://12679.top/2020/04/14/19/"/>
+    <id>http://12679.top/2020/04/14/19/</id>
+    <published>2020-04-14T10:09:12.000Z</published>
+    <updated>2020-04-14T11:52:32.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;参考链接：&lt;a href=&quot;https://blog.csdn.net/JBlock/article/details/88619117&quot;&gt;WFUZZ使用教程&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;一、简介&quot;&gt;&lt;a href=&quot;#一、简介&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="CTF学习" scheme="http://12679.top/categories/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="渗透工具" scheme="http://12679.top/tags/%E6%B8%97%E9%80%8F%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="CTF学习" scheme="http://12679.top/tags/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装centos，ubuntu，windows2012系统----问题汇总</title>
+    <link href="http://12679.top/2020/04/14/18/"/>
+    <id>http://12679.top/2020/04/14/18/</id>
+    <published>2020-04-14T09:13:30.000Z</published>
+    <updated>2020-04-14T11:55:36.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h5 id=&quot;1、centos精简版安装之后上不了网&quot;&gt;&lt;a href=&quot;#1、centos精简版安装之后上不了网&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="遇到问题解决汇总" scheme="http://12679.top/categories/%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/"/>
+    
+    
+    <category term="linux系统" scheme="http://12679.top/tags/linux%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="系统问题解决" scheme="http://12679.top/tags/%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>目标识别小工具</title>
+    <link href="http://12679.top/2020/04/14/17/"/>
+    <id>http://12679.top/2020/04/14/17/</id>
+    <published>2020-04-14T09:13:24.000Z</published>
+    <updated>2020-04-14T09:59:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;arping&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;arping options target&lt;br&gt;-i 指定网卡&lt;br&gt;-c 发包数量&lt;br&gt;-s 源MAC&lt;br&gt;-S 源IP&lt;/p&gt;
+&lt;p&gt;很多主机防火墙会禁掉ping&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="CTF学习" scheme="http://12679.top/categories/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="渗透工具" scheme="http://12679.top/tags/%E6%B8%97%E9%80%8F%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="CTF学习" scheme="http://12679.top/tags/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>kalix系统---信息收集小工具使用</title>
+    <link href="http://12679.top/2020/04/14/16/"/>
+    <id>http://12679.top/2020/04/14/16/</id>
+    <published>2020-04-14T09:13:14.000Z</published>
+    <updated>2020-04-14T09:18:50.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;amap&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;功能: 扫描某ip主机端口开放情况&lt;br&gt;安装：sudo apt-get install amap&lt;br&gt;命令： amap -bq ip 端口范围&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="CTF学习" scheme="http://12679.top/categories/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="渗透工具" scheme="http://12679.top/tags/%E6%B8%97%E9%80%8F%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="CTF学习" scheme="http://12679.top/tags/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>kali系统---DNS收集分析</title>
+    <link href="http://12679.top/2020/04/14/15/"/>
+    <id>http://12679.top/2020/04/14/15/</id>
+    <published>2020-04-14T08:52:16.000Z</published>
+    <updated>2020-04-14T09:12:10.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;host工具&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;1&amp;gt;Host指令提供一个简单的DNS解析的功能。正常地使用名称到IP的解析，当指令没有任何参数和选项的时候，它将输出简单的带命令行参数和选项的概要。&lt;/p&gt;
+&lt;p&gt;名称是可以被解析的域名</summary>
+        
+      
+    
+    
+    
+    <category term="CTF学习" scheme="http://12679.top/categories/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="渗透工具" scheme="http://12679.top/tags/%E6%B8%97%E9%80%8F%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="CTF学习" scheme="http://12679.top/tags/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>kali系统安装和汉化</title>
+    <link href="http://12679.top/2020/04/14/14/"/>
+    <id>http://12679.top/2020/04/14/14/</id>
+    <published>2020-04-14T08:44:12.000Z</published>
+    <updated>2020-04-14T08:51:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1、首先到kail官网下载 &lt;a href=&quot;https://www.kali.org/downloads/&quot;&gt;https://www.kali.org/downloads/&lt;/a&gt;&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="遇到问题解决汇总" scheme="http://12679.top/categories/%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/"/>
+    
+    
+    <category term="linux系统" scheme="http://12679.top/tags/linux%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="系统问题解决" scheme="http://12679.top/tags/%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Web安全</title>
+    <link href="http://12679.top/2020/04/13/13/"/>
+    <id>http://12679.top/2020/04/13/13/</id>
+    <published>2020-04-13T03:48:24.000Z</published>
+    <updated>2020-04-14T11:59:10.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本博客内容是看看雪论坛上的教程总结而来：&lt;/p&gt;
+&lt;h2 id=&quot;Web安全&quot;&gt;&lt;a href=&quot;#Web安全&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Web安全" scheme="http://12679.top/categories/Web%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="web安全" scheme="http://12679.top/tags/web%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="CTF学习" scheme="http://12679.top/tags/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客样式修改</title>
+    <link href="http://12679.top/2020/03/24/12/"/>
+    <id>http://12679.top/2020/03/24/12/</id>
+    <published>2020-03-24T14:51:02.000Z</published>
+    <updated>2020-03-26T01:55:16.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;参考:&lt;br&gt;&lt;a href=&quot;https://qvchuang.top/archives/d3c10307.html#toc-heading-21&quot;&gt;matery主题个性化定制&lt;/a&gt;&lt;br&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://12679.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="hexo博客" scheme="http://12679.top/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CTF实战时面对的问题的思考</title>
+    <link href="http://12679.top/2020/03/19/11/"/>
+    <id>http://12679.top/2020/03/19/11/</id>
+    <published>2020-03-19T14:47:11.000Z</published>
+    <updated>2020-03-19T14:50:22.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h5 id=&quot;对于SSH服务的22端口开放的靶场&quot;&gt;&lt;a href=&quot;#对于SSH服务的22端口开放的靶场&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="CTF学习" scheme="http://12679.top/categories/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="思考方式" scheme="http://12679.top/tags/%E6%80%9D%E8%80%83%E6%96%B9%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>kali安装AWVS</title>
+    <link href="http://12679.top/2020/03/19/10/"/>
+    <id>http://12679.top/2020/03/19/10/</id>
+    <published>2020-03-19T14:44:09.000Z</published>
+    <updated>2020-03-19T14:46:50.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;一、简介&quot;&gt;&lt;a href=&quot;#一、简介&quot; class=&quot;headerlink&quot; title=&quot;一、简介&quot;&gt;&lt;/a&gt;一、简介&lt;/h4&gt;&lt;p&gt;Acunetix Web Vulnerability</summary>
+        
+      
+    
+    
+    
+    <category term="CTF学习" scheme="http://12679.top/categories/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="安装教程" scheme="http://12679.top/tags/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="渗透工具" scheme="http://12679.top/tags/%E6%B8%97%E9%80%8F%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>渗透小工具总结</title>
+    <link href="http://12679.top/2020/03/19/9/"/>
+    <id>http://12679.top/2020/03/19/9/</id>
+    <published>2020-03-19T14:32:46.000Z</published>
+    <updated>2020-03-23T13:15:46.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;网站目录扫描：&quot;&gt;&lt;a href=&quot;#网站目录扫描：&quot; class=&quot;headerlink&quot; title=&quot;网站目录扫描：&quot;&gt;&lt;/a&gt;网站目录扫描：&lt;/h4&gt;&lt;h5 id=&quot;御剑工具进行扫描：&quot;&gt;&lt;a href=&quot;#御剑工具进行扫描：&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="CTF学习" scheme="http://12679.top/categories/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="渗透工具" scheme="http://12679.top/tags/%E6%B8%97%E9%80%8F%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="CTF学习" scheme="http://12679.top/tags/CTF%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Rootkit学习</title>
+    <link href="http://12679.top/2020/03/19/8/"/>
+    <id>http://12679.top/2020/03/19/8/</id>
+    <published>2020-03-19T14:22:11.000Z</published>
+    <updated>2020-03-19T15:05:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h5 id=&quot;Rootkit解释&quot;&gt;&lt;a href=&quot;#Rootkit解释&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="网络后门学习" scheme="http://12679.top/categories/%E7%BD%91%E7%BB%9C%E5%90%8E%E9%97%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="rootkit木马" scheme="http://12679.top/tags/rootkit%E6%9C%A8%E9%A9%AC/"/>
+    
+  </entry>
+  
+</feed>
