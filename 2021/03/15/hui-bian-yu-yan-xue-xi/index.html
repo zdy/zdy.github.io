@@ -439,7 +439,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-03-15
+                    2021-04-30
                 </div>
                 
 
@@ -473,9 +473,9 @@
 <li>F9直接运行，会在断点断下</li>
 <li>在寄存器窗口右键，能转换成32位寄存器，因为这个环境也能写32位汇编程序，就是偏移得用16位</li>
 <li>在各个cs,ds,ss窗口点击Ctrl+G，输入ds:0587，就能到对应的全局变量地址</li>
-<li>window下有个User Screen，能看到当前黑窗口内输出了什么<br><img src="https://img-blog.csdnimg.cn/202103141843229.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2Mzg2NDM1,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><h2 id="基本知识"><a href="#基本知识" class="headerlink" title="基本知识"></a>基本知识</h2><h3 id="寄存器"><a href="#寄存器" class="headerlink" title="寄存器"></a>寄存器</h3></li>
+<li>window下有个User Screen，能看到当前黑窗口内输出了什么<br><img src="https://img-blog.csdnimg.cn/202103141843229.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2Mzg2NDM1,size_16,color_FFFFFF,t_70"><h2 id="基本知识"><a href="#基本知识" class="headerlink" title="基本知识"></a>基本知识</h2><h3 id="寄存器"><a href="#寄存器" class="headerlink" title="寄存器"></a>寄存器</h3></li>
 </ul>
-<p><strong><em>16位cpu的寄存器有</em></strong>：<br>ax, bx, cx, dx（前四个寄存器加减乘除，逻辑运算，二进制运算，其中bx可用作偏移，其他都不能）<br>其中上面四个都可以再划分，比如ax，可以分为al(低8位)和ah(高8位)<br>sp, bp, si, di（sp，bp是栈寄存器，si，di负责偏移和计算）<br>cs, ds, es, ss（段地址寄存器，其中es:extra segment附加段，它跟ds类似，可以用来表示一个数据段的段址）<br>ip, fl （两个寄存器无法被用户直接修改，可以采用一些间接方法进行修改）<br><img src="https://img-blog.csdnimg.cn/20210314185643582.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2Mzg2NDM1,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>上图比较清晰的讲解了寄存器，图片来源于网上，<a target="_blank" rel="noopener" href="https://blog.csdn.net/cqkxboy168/article/details/8994479">https://blog.csdn.net/cqkxboy168/article/details/8994479</a><br><strong>32位cpu的寄存器有</strong>：<br>eax, ebx, ecs, edx<br>esp, ebp, esi, edi<br>cs, ds, es, ss(这里的段寄存器是16位，其他都是32位)<br>eip, efl</p>
+<p><strong><em>16位cpu的寄存器有</em></strong>：<br>ax, bx, cx, dx（前四个寄存器加减乘除，逻辑运算，二进制运算，其中bx可用作偏移，其他都不能）<br>其中上面四个都可以再划分，比如ax，可以分为al(低8位)和ah(高8位)<br>sp, bp, si, di（sp，bp是栈寄存器，si，di负责偏移和计算）<br>cs, ds, es, ss（段地址寄存器，其中es:extra segment附加段，它跟ds类似，可以用来表示一个数据段的段址）<br>ip, fl （两个寄存器无法被用户直接修改，可以采用一些间接方法进行修改）<br><img src="https://img-blog.csdnimg.cn/20210314185643582.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2Mzg2NDM1,size_16,color_FFFFFF,t_70"><br>上图比较清晰的讲解了寄存器，图片来源于网上，<a target="_blank" rel="noopener" href="https://blog.csdn.net/cqkxboy168/article/details/8994479">https://blog.csdn.net/cqkxboy168/article/details/8994479</a><br><strong>32位cpu的寄存器有</strong>：<br>eax, ebx, ecs, edx<br>esp, ebp, esi, edi<br>cs, ds, es, ss(这里的段寄存器是16位，其他都是32位)<br>eip, efl</p>
 <h3 id="堆栈"><a href="#堆栈" class="headerlink" title="堆栈"></a>堆栈</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;网上找了一个解释堆栈的图：</p>
 <ul>
 <li>最上面是栈（stack），一般用来保存局部变量，有 8 MB 的大小限制，因此不建议在函数内开大数组，递归的效率低是因为容易栈溢出。栈的增长方向是向下的。</li>
@@ -483,7 +483,7 @@
 <li>data 区，静态存储区，存放全局变量，静态变量，常量等。</li>
 <li>text 区和共享库，是可执行机器指令，是只读的。</li>
 </ul>
-<p><img src="https://img-blog.csdnimg.cn/20210315100834925.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2Mzg2NDM1,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>&nbsp;&nbsp;&nbsp;&nbsp;在汇编语言中，ss: stack segment(用来表示堆栈的段地址)，sp:stack pointer(堆栈指针, 表示堆栈顶端的偏移地址), 但是不能用[sp]或[sp+常数或其它寄存器]的形式来引用某个变量。可以使用[bp+常数或其它寄存器]的形式来引用某个变量。</p>
+<p><img src="https://img-blog.csdnimg.cn/20210315100834925.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2Mzg2NDM1,size_16,color_FFFFFF,t_70"><br>&nbsp;&nbsp;&nbsp;&nbsp;在汇编语言中，ss: stack segment(用来表示堆栈的段地址)，sp:stack pointer(堆栈指针, 表示堆栈顶端的偏移地址), 但是不能用[sp]或[sp+常数或其它寄存器]的形式来引用某个变量。可以使用[bp+常数或其它寄存器]的形式来引用某个变量。</p>
 <h3 id="汇编代码结构"><a href="#汇编代码结构" class="headerlink" title="汇编代码结构"></a>汇编代码结构</h3><pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token punctuation">;</span><span class="token number">16</span>位汇编语言程序
 data segment
 <span class="token punctuation">;</span>这里定义全局变量<span class="token punctuation">(</span>数据<span class="token punctuation">)</span>
@@ -617,7 +617,7 @@ add 变量, 常数
 <li>sub 减subtract(和上面add是一样的)</li>
 <li>mul 乘multiply<pre class="line-numbers language-bash"><code class="language-bash">mul是非符号数的乘法指令
 imul是符号数的乘法指令<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<img src="https://img-blog.csdnimg.cn/20210315105822617.png" alt="在这里插入图片描述"></li>
+<img src="https://img-blog.csdnimg.cn/20210315105822617.png"></li>
 <li>div 除divide、求余<pre class="line-numbers language-bash"><code class="language-bash">div是非符号数的除法指令
 idiv是符号数的除法指令
 <span class="token punctuation">(</span>1<span class="token punctuation">)</span> 16位除以8位得8位
