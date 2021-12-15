@@ -16,15 +16,15 @@
     <title>CTF-攻防世界Web题目3 | P1n9</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/awesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
-    <script src="https://image.12679.top/jquery/jquery.min.js"></script>
+    <script src="https://image.p1n9.cn/jquery/jquery.min.js"></script>
     
 <meta name="generator" content="Hexo 5.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
@@ -285,7 +285,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://image.12679.top/featureimages/22.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://image.p1n9.cn/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -303,7 +303,7 @@
 <main class="post-container content">
 
     
-    <link rel="stylesheet" href="https://image.12679.top/tocbot/tocbot.css">
+    <link rel="stylesheet" href="https://image.p1n9.cn/tocbot/tocbot.css">
 <style>
     #articleContent h1::before,
     #articleContent h2::before,
@@ -443,7 +443,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-14
+                    2021-12-15
                 </div>
                 
 
@@ -468,26 +468,26 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="一、easytornado"><a href="#一、easytornado" class="headerlink" title="一、easytornado"></a>一、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5422&amp;page=1">easytornado</a></h2><p><strong>题目：</strong><br><img src="http://image.12679.top/blog/22.1.png"><br><img src="http://image.12679.top/blog/22.2.png"><br><img src="http://image.12679.top/blog/22.3.png"><br><img src="http://image.12679.top/blog/22.4.png"></p>
+                <h2 id="一、easytornado"><a href="#一、easytornado" class="headerlink" title="一、easytornado"></a>一、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5422&amp;page=1">easytornado</a></h2><p><strong>题目：</strong><br><img src="https://image.p1n9.cn/blog/22.1.png"><br><img src="https://image.p1n9.cn/blog/22.2.png"><br><img src="https://image.p1n9.cn/blog/22.3.png"><br><img src="https://image.p1n9.cn/blog/22.4.png"></p>
 <p><strong>解题基础</strong><br><a target="_blank" rel="noopener" href="https://blog.knownsec.com/2015/11/server-side-template-injection-attack-analysis/">服务端模板注入攻击 (SSTI) 之浅析</a><br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/cimuhuashuimu/p/11544455.html">python SSTI tornado render模板注入</a><br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/aef2ae0498df">SSTI模板注入</a></p>
-<p><strong>解题方法：</strong><br>1、从上图可以看出，那个hash值，只要按hint.txt要求方法构造出来，就可以访问到内容；<br>2、首先尝试一下将file改成/fllllllllllllag，得到如下界面<br><img src="http://image.12679.top/blog/22.5.png"><br>3、welcom.txt中提示存在模版注入，那么可能可以执行部分语句：<br><img src="http://image.12679.top/blog/22.6.png"><br>4、输入如下url，可得到</p>
+<p><strong>解题方法：</strong><br>1、从上图可以看出，那个hash值，只要按hint.txt要求方法构造出来，就可以访问到内容；<br>2、首先尝试一下将file改成/fllllllllllllag，得到如下界面<br><img src="https://image.p1n9.cn/blog/22.5.png"><br>3、welcom.txt中提示存在模版注入，那么可能可以执行部分语句：<br><img src="https://image.p1n9.cn/blog/22.6.png"><br>4、输入如下url，可得到</p>
 <pre><code>http://111.198.29.45:30487/error?msg={{handler.settings}}</code></pre>
-<p><img src="http://image.12679.top/blog/22.7.png"><br>这样就拿到了cookie_secret<br>5、在<a target="_blank" rel="noopener" href="https://tool.chinaz.com/tools/md5.aspx">md5的加密网站</a>先进行/fllllllllllllag<br><img src="http://image.12679.top/blog/22.8.png"><br>按照md5(cookie_secret+md5(filename))格式进行加密：<br><img src="http://image.12679.top/blog/22.9.png"><br>6、访问对应的url<br><img src="http://image.12679.top/blog/22.10.png"><br>7、得到flag</p>
-<h2 id="二、ics-06"><a href="#二、ics-06" class="headerlink" title="二、ics-06"></a>二、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4920&amp;page=1">ics-06</a></h2><p><strong>题目：</strong><br><img src="http://image.12679.top/blog/22.11.png"></p>
-<p><strong>解题方法：</strong><br>1、看到URL中的”index.php?id=1”,就开始尝试注入，但是除了数字其他的都不能用，输入其他类型的字符，会被重定向回id=1；这时用burpsuite抓包爆破一下<br>2、id到2333的出现不一样的内容<br><img src="http://image.12679.top/blog/22.12.png"></p>
-<h2 id="三、lottery"><a href="#三、lottery" class="headerlink" title="三、lottery"></a>三、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4685&amp;page=1">lottery</a></h2><p><strong>题目：</strong><br><img src="http://image.12679.top/blog/22.13.png"><br>一个比较好玩的题目，里面注册完可以买彩票，猜对之后有奖金，可以买flag，这样思路可能就是要挣钱买flag了</p>
-<p><strong>解题方法：</strong><br>1、查看robots.txt，发现有git目录，有Git源码泄漏<br><img src="http://image.12679.top/blog/22.14.png"><br>2、用这个工具可以找到源码，GitHack（<a target="_blank" rel="noopener" href="https://github.com/lijiejie/GitHack">下载地址</a>）<br><img src="http://image.12679.top/blog/22.15.png"><br>3、先抓取一下点击buy按钮的网页包<br><img src="http://image.12679.top/blog/22.16.png"><br>4、&nbsp;$numbers&nbsp;来自用户json输入&nbsp;{“action”:”buy”,”numbers”:”1234567”}，没有检查数据类型。&nbsp;$win_numbers&nbsp;是随机生成的数字字符串。<br><img src="http://image.12679.top/blog/22.17.png"><br>5、使用 PHP 弱类型松散比较，以”1”为例，和TRUE,1,”1”相等。 由于 json 支持布尔型数据，因此可以抓包改包，构造数据<br><img src="http://image.12679.top/blog/22.18.png"><br>已经有这么多钱了hhh<br><img src="http://image.12679.top/blog/22.19.png"><br>再来几次就够了<br>6、买到flag了<br><img src="http://image.12679.top/blog/22.20.png"></p>
-<h2 id="四、mfw"><a href="#四、mfw" class="headerlink" title="四、mfw"></a>四、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5002">mfw</a></h2><p><strong>题目：</strong><br><img src="http://image.12679.top/blog/22.21.png"></p>
-<p><strong>解题方法：</strong><br>1、根据上图可以看出有个flag的文件在目录下，但是无法读取，被执行了，然后可能有git源码泄漏<br>用上面那个题目的工具进行渗透<br><img src="http://image.12679.top/blog/22.22.png"><br>成功拿到源码，但是flag.php里面啥也没有<br><img src="http://image.12679.top/blog/22.23.png"><br>2、只有index.php可以利用，所以在index.php里找bug<br><img src="http://image.12679.top/blog/22.24.png"><br>由两个关键地方，file直接拼接，不做任何检查，可以根据第二个红框地方进行恶意payload构造；<br>assert()&nbsp;检查一个断言是否为&nbsp;FALSE<br>strpos() 函数查找字符串在另一字符串中第一次出现的位置。<br>file_exists() 函数检查文件或目录是否存在<br>利用上面的信息构造payload：</p>
+<p><img src="https://image.p1n9.cn/blog/22.7.png"><br>这样就拿到了cookie_secret<br>5、在<a target="_blank" rel="noopener" href="https://tool.chinaz.com/tools/md5.aspx">md5的加密网站</a>先进行/fllllllllllllag<br><img src="https://image.p1n9.cn/blog/22.8.png"><br>按照md5(cookie_secret+md5(filename))格式进行加密：<br><img src="https://image.p1n9.cn/blog/22.9.png"><br>6、访问对应的url<br><img src="https://image.p1n9.cn/blog/22.10.png"><br>7、得到flag</p>
+<h2 id="二、ics-06"><a href="#二、ics-06" class="headerlink" title="二、ics-06"></a>二、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4920&amp;page=1">ics-06</a></h2><p><strong>题目：</strong><br><img src="https://image.p1n9.cn/blog/22.11.png"></p>
+<p><strong>解题方法：</strong><br>1、看到URL中的”index.php?id=1”,就开始尝试注入，但是除了数字其他的都不能用，输入其他类型的字符，会被重定向回id=1；这时用burpsuite抓包爆破一下<br>2、id到2333的出现不一样的内容<br><img src="https://image.p1n9.cn/blog/22.12.png"></p>
+<h2 id="三、lottery"><a href="#三、lottery" class="headerlink" title="三、lottery"></a>三、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=4685&amp;page=1">lottery</a></h2><p><strong>题目：</strong><br><img src="https://image.p1n9.cn/blog/22.13.png"><br>一个比较好玩的题目，里面注册完可以买彩票，猜对之后有奖金，可以买flag，这样思路可能就是要挣钱买flag了</p>
+<p><strong>解题方法：</strong><br>1、查看robots.txt，发现有git目录，有Git源码泄漏<br><img src="https://image.p1n9.cn/blog/22.14.png"><br>2、用这个工具可以找到源码，GitHack（<a target="_blank" rel="noopener" href="https://github.com/lijiejie/GitHack">下载地址</a>）<br><img src="https://image.p1n9.cn/blog/22.15.png"><br>3、先抓取一下点击buy按钮的网页包<br><img src="https://image.p1n9.cn/blog/22.16.png"><br>4、&nbsp;$numbers&nbsp;来自用户json输入&nbsp;{“action”:”buy”,”numbers”:”1234567”}，没有检查数据类型。&nbsp;$win_numbers&nbsp;是随机生成的数字字符串。<br><img src="https://image.p1n9.cn/blog/22.17.png"><br>5、使用 PHP 弱类型松散比较，以”1”为例，和TRUE,1,”1”相等。 由于 json 支持布尔型数据，因此可以抓包改包，构造数据<br><img src="https://image.p1n9.cn/blog/22.18.png"><br>已经有这么多钱了hhh<br><img src="https://image.p1n9.cn/blog/22.19.png"><br>再来几次就够了<br>6、买到flag了<br><img src="https://image.p1n9.cn/blog/22.20.png"></p>
+<h2 id="四、mfw"><a href="#四、mfw" class="headerlink" title="四、mfw"></a>四、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5002">mfw</a></h2><p><strong>题目：</strong><br><img src="https://image.p1n9.cn/blog/22.21.png"></p>
+<p><strong>解题方法：</strong><br>1、根据上图可以看出有个flag的文件在目录下，但是无法读取，被执行了，然后可能有git源码泄漏<br>用上面那个题目的工具进行渗透<br><img src="https://image.p1n9.cn/blog/22.22.png"><br>成功拿到源码，但是flag.php里面啥也没有<br><img src="https://image.p1n9.cn/blog/22.23.png"><br>2、只有index.php可以利用，所以在index.php里找bug<br><img src="https://image.p1n9.cn/blog/22.24.png"><br>由两个关键地方，file直接拼接，不做任何检查，可以根据第二个红框地方进行恶意payload构造；<br>assert()&nbsp;检查一个断言是否为&nbsp;FALSE<br>strpos() 函数查找字符串在另一字符串中第一次出现的位置。<br>file_exists() 函数检查文件或目录是否存在<br>利用上面的信息构造payload：</p>
 <pre><code>page=123') or system("cat templates/flag.php");//
 因为strpos函数里只有template/123,所以会返回false，之后or执行system命令，//表示注释
 file_exists函数执行同理</code></pre>
-<p><img src="http://image.12679.top/blog/22.25.png"></p>
+<p><img src="https://image.p1n9.cn/blog/22.25.png"></p>
 <pre><code>about.php', '123') === false and system('cat templates/flag.php') and strpos('templates/flag
 and前面的一定会返回true，之后执行命令，file存在那儿会失败</code></pre>
-<p><img src="http://image.12679.top/blog/22.26.png"><br>上述两种办法来自博客：<br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/JKding233/p/10864033.html">博客1</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/silence1_/article/details/89741733">博客2</a><br>还有很多payload构造方法，可以自己尝试一下<br>3、奉上flag<br><code>cyberpeace{56445c400d4b2305d1339a5266a152ba}</code></p>
-<h2 id="五、shrine"><a href="#五、shrine" class="headerlink" title="五、shrine"></a>五、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5423">shrine</a></h2><p><strong>题目：</strong><br><img src="http://image.12679.top/blog/22.27.png"></p>
-<p><strong>解题方法：</strong><br>1、分析代码<br><img src="http://image.12679.top/blog/22.28.png"><br>2、判断是否存在模版注入，url输入/shrine/14<br><img src="http://image.12679.top/blog/22.29.png"><br>3、如果没有过滤可以直接即可查看所有app.config内容，但是这题设了黑名单[‘config’,‘self’]并且过滤了括号。<br>python还有一些内置函数，比如url_for和get_flashed_messages<br>4、输入<code>/shrine/{{url_for.__globals__}}</code>查看<br><img src="http://image.12679.top/blog/22.30.png"><br>看到current_app意思应该是当前app，那我们就当前app下的config：<br>5、输入<code>/shrine/{{url_for.__globals__['current_app'].config}}</code>查看flag<br><img src="http://image.12679.top/blog/22.31.png"><br>6、输入<code>/shrine/{{get_flashed_messages.__globals__['current_app'].config}}</code>查看<br><img src="http://image.12679.top/blog/22.32.png"></p>
+<p><img src="https://image.p1n9.cn/blog/22.26.png"><br>上述两种办法来自博客：<br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/JKding233/p/10864033.html">博客1</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/silence1_/article/details/89741733">博客2</a><br>还有很多payload构造方法，可以自己尝试一下<br>3、奉上flag<br><code>cyberpeace{56445c400d4b2305d1339a5266a152ba}</code></p>
+<h2 id="五、shrine"><a href="#五、shrine" class="headerlink" title="五、shrine"></a>五、<a target="_blank" rel="noopener" href="https://adworld.xctf.org.cn/task/answer?type=web&amp;number=3&amp;grade=1&amp;id=5423">shrine</a></h2><p><strong>题目：</strong><br><img src="https://image.p1n9.cn/blog/22.27.png"></p>
+<p><strong>解题方法：</strong><br>1、分析代码<br><img src="https://image.p1n9.cn/blog/22.28.png"><br>2、判断是否存在模版注入，url输入/shrine/14<br><img src="https://image.p1n9.cn/blog/22.29.png"><br>3、如果没有过滤可以直接即可查看所有app.config内容，但是这题设了黑名单[‘config’,‘self’]并且过滤了括号。<br>python还有一些内置函数，比如url_for和get_flashed_messages<br>4、输入<code>/shrine/{{url_for.__globals__}}</code>查看<br><img src="https://image.p1n9.cn/blog/22.30.png"><br>看到current_app意思应该是当前app，那我们就当前app下的config：<br>5、输入<code>/shrine/{{url_for.__globals__['current_app'].config}}</code>查看flag<br><img src="https://image.p1n9.cn/blog/22.31.png"><br>6、输入<code>/shrine/{{get_flashed_messages.__globals__['current_app'].config}}</code>查看<br><img src="https://image.p1n9.cn/blog/22.32.png"></p>
 
             </div>
             <hr/>
@@ -503,7 +503,7 @@ and前面的一定会返回true，之后执行命令，file存在那儿会失败
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://12679.top" rel="external nofollow noreferrer">P1n9</a>
+                    <a href="http://p1n9.cn" rel="external nofollow noreferrer">P1n9</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -513,7 +513,7 @@ and前面的一定会返回true，之后执行命令，file存在那儿会失败
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://12679.top/2020/04/14/22/">http://12679.top/2020/04/14/22/</a>
+                    <a href="http://p1n9.cn/2020/04/14/22/">http://p1n9.cn/2020/04/14/22/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -526,7 +526,7 @@ and前面的一定会返回true，之后执行命令，file存在那儿会失败
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="http://12679.top" target="_blank">P1n9</a>
+                    <a href="http://p1n9.cn" target="_blank">P1n9</a>
                     !
                 </span>
             </div>
@@ -834,12 +834,12 @@ and前面的一定会返回true，之后执行命令，file存在那儿会失败
 </div>
 
 <script src="/libs/valine/av-min.js"></script>
-<script src="https://image.12679.top/valine/Valine.min.js"></script>
+<script src="https://image.p1n9.cn/valine/Valine.min.js"></script>
 <script>
     new Valine({
         el: '#vcomments',
-        appId: 'I3wOlp7afLKRV583imHzIju3-gzGzoHsz',
-        appKey: 'WKVJsARrWKVFK0wdDoInKM71',
+        appId: 'AyuymwyNaLFfImI9Q3TNPVAN-gzGzoHsz',
+        appKey: 'xx1nOrSBta51mL5WB1exTdOs',
         notify: 'false' === 'true',
         verify: 'false' === 'true',
         visitor: 'true' === 'true',
@@ -865,7 +865,7 @@ and前面的一定会返回true，之后执行命令，file存在那儿会失败
                     <div class="card-image">
                         
                         
-                        <img src="https://image.12679.top/featureimages/23.jpg" class="responsive-img" alt="CTF-攻防世界Web题目4">
+                        <img src="https://image.p1n9.cn/featureimages/23.jpg" class="responsive-img" alt="CTF-攻防世界Web题目4">
                         
                         <span class="card-title">CTF-攻防世界Web题目4</span>
                     </div>
@@ -921,7 +921,7 @@ and前面的一定会返回true，之后执行命令，file存在那儿会失败
                     <div class="card-image">
                         
                         
-                        <img src="https://image.12679.top/featureimages/21.jpg" class="responsive-img" alt="CTF-攻防世界Web题目2">
+                        <img src="https://image.p1n9.cn/featureimages/21.jpg" class="responsive-img" alt="CTF-攻防世界Web题目2">
                         
                         <span class="card-title">CTF-攻防世界Web题目2</span>
                     </div>
@@ -1052,7 +1052,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 </div>
 
 
-<script src="https://image.12679.top/tocbot/tocbot.min.js"></script>
+<script src="https://image.p1n9.cn/tocbot/tocbot.min.js"></script>
 <script>
     $(function () {
         tocbot.init({
@@ -1140,11 +1140,11 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">2020</span>
-            <a href="http://12679.top" target="_blank">P1n9</a>
+            <a href="http://p1n9.cn" target="_blank">P1n9</a>
 			&nbsp;&nbsp;
             
             <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
-                <a href="http://www.beian.miit.gov.cn" target="_blank">晋ICP备20001718号-1</a>
+                <a href="http://www.beian.miit.gov.cn" target="_blank">晋ICP备20001718号-2</a>
             </span>
             
 			<br>
@@ -1279,16 +1279,16 @@ $(function () {
 </div>
 
 
-    <script src="https://image.12679.top/materialize/materialize.min.js"></script>
-    <script src="https://image.12679.top/masonry/masonry.pkgd.min.js"></script>
-    <script src="https://image.12679.top/aos/aos.js"></script>
-    <script src="https://image.12679.top/scrollprogress/scrollProgress.min.js"></script>
-    <script src="https://image.12679.top/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="https://image.p1n9.cn/materialize/materialize.min.js"></script>
+    <script src="https://image.p1n9.cn/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://image.p1n9.cn/aos/aos.js"></script>
+    <script src="https://image.p1n9.cn/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://image.p1n9.cn/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/js/matery.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161839843-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LXJ93MF8W5"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -1296,7 +1296,7 @@ $(function () {
     }
 
     gtag('js', new Date());
-    gtag('config', 'UA-161839843-1');
+    gtag('config', 'G-LXJ93MF8W5');
 </script>
 
 
@@ -1306,7 +1306,7 @@ $(function () {
     var _hmt = _hmt || [];
     (function () {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?7fc02ada382f9c86da55ef7e31ca60f8";
+        hm.src = "https://hm.baidu.com/hm.js?e1b8c0884f83ab30bdc4fb0fcd4c7b44";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
     })();
@@ -1329,10 +1329,10 @@ $(function () {
 </script>
 
     
-    <script src="https://image.12679.top/others/clicklove.js" async="async"></script>
+    <script src="https://image.p1n9.cn/others/clicklove.js" async="async"></script>
     
     
-    <script async src="https://image.12679.top/others/busuanzi.pure.mini.js"></script>
+    <script async src="https://image.p1n9.cn/others/busuanzi.pure.mini.js"></script>
     
 
     
@@ -1343,17 +1343,17 @@ $(function () {
     <script type="text/javascript" color="0,0,255"
         pointColor="0,0,255" opacity='0.7'
         zIndex="-1" count="99"
-        src="https://image.12679.top/background/canvas-nest.js"></script>
+        src="https://image.p1n9.cn/background/canvas-nest.js"></script>
     
 
     
 
     
-    <script type="text/javascript" src="https://image.12679.top/background/ribbon-dynamic.js" async="async"></script>
+    <script type="text/javascript" src="https://image.p1n9.cn/background/ribbon-dynamic.js" async="async"></script>
     
     
     
-    <script src="https://image.12679.top/instantpage/instantpage.js" type="module"></script>
+    <script src="https://image.p1n9.cn/instantpage/instantpage.js" type="module"></script>
     
 	
 	<!-- 页面点击特效 -->

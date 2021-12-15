@@ -16,15 +16,15 @@
     <title>kali系统---DNS收集分析 | P1n9</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/awesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="https://image.12679.top/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
-    <script src="https://image.12679.top/jquery/jquery.min.js"></script>
+    <script src="https://image.p1n9.cn/jquery/jquery.min.js"></script>
     
 <meta name="generator" content="Hexo 5.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
@@ -285,7 +285,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://image.12679.top/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://image.p1n9.cn/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -303,7 +303,7 @@
 <main class="post-container content">
 
     
-    <link rel="stylesheet" href="https://image.12679.top/tocbot/tocbot.css">
+    <link rel="stylesheet" href="https://image.p1n9.cn/tocbot/tocbot.css">
 <style>
     #articleContent h1::before,
     #articleContent h2::before,
@@ -443,7 +443,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-14
+                    2021-12-15
                 </div>
                 
 
@@ -473,7 +473,7 @@
 </blockquote>
 <p>1&gt;Host指令提供一个简单的DNS解析的功能。正常地使用名称到IP的解析，当指令没有任何参数和选项的时候，它将输出简单的带命令行参数和选项的概要。</p>
 <p>名称是可以被解析的域名，也可以是点分十进制的IPV4的地址或冒号分隔的IPV6的地址，默认地，也可以行使一个反向解析的功能，DNS服务器既有名称又有IP地址，host查询可以替代它们，或者可以列在/etc/resolv.conf文件里</p>
-<p>2&gt;具体用法：<br><img src="http://image.12679.top/blog/15.1.png"></p>
+<p>2&gt;具体用法：<br><img src="https://image.p1n9.cn/blog/15.1.png"></p>
 <pre><code>-a 显示详细的DNS信息；
 -c&lt;类型&gt; 指定查询类型，默认值为“IN“；
 -C 查询指定主机的完整的SOA记录；
@@ -484,14 +484,14 @@
 -W&lt;时间&gt; 指定域名查询的最长时间，如果在指定时间内域名服务器没有给出应答信息，则退出指令；
 -4 使用IPv4；
 -6 使用IPv6.</code></pre>
-<p>3&gt;具体方法：<br>使用的dns服务器在/etc/resolv.conf文件中<br><img src="http://image.12679.top/blog/15.2.png"><br>测试百度<br><img src="http://image.12679.top/blog/15.3.png"><br>用自定义的dns服务器<br><img src="http://image.12679.top/blog/15.4.png"><br>显示详细记录<br><img src="http://image.12679.top/blog/15.5.png"></p>
+<p>3&gt;具体方法：<br>使用的dns服务器在/etc/resolv.conf文件中<br><img src="https://image.p1n9.cn/blog/15.2.png"><br>测试百度<br><img src="https://image.p1n9.cn/blog/15.3.png"><br>用自定义的dns服务器<br><img src="https://image.p1n9.cn/blog/15.4.png"><br>显示详细记录<br><img src="https://image.p1n9.cn/blog/15.5.png"></p>
 <blockquote>
 <p>dig</p>
 </blockquote>
 <p>1&gt;dig（域信息搜索器）命令是一个用于询问 DNS 域名服务器的灵活的工具。它执行 DNS 搜索，显示从受请求的域名服务器返回的答复。多数 DNS 管理员利用 dig 作为 DNS 问题的故障诊断，因为它灵活性好、易用、输出清晰。</p>
 <p>虽然通常情况下 dig 使用命令行参数，但它也可以按批处理模式从文件读取搜索请求。不同于早期版本，dig 的 BIND9 实现允许从命令行发出多个查询。除非被告知请求特定域名服务器，dig 将尝试 /etc/resolv.conf 中列举的所有服务器。当未指定任何命令行参数或选项时，dig 将对“.”（根）执行 NS 查询。</p>
-<p>2&gt;命令选项<br><img src="http://image.12679.top/blog/15.6.png"><br>dns不同记录详解：<br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/momenglin/p/8556079.html">https://www.cnblogs.com/momenglin/p/8556079.html</a></p>
-<p>3&gt;<br><img src="http://image.12679.top/blog/15.7.png"><br><img src="http://image.12679.top/blog/15.8.png"><br><img src="http://image.12679.top/blog/15.9.png"><br><img src="http://image.12679.top/blog/15.10.png"></p>
+<p>2&gt;命令选项<br><img src="https://image.p1n9.cn/blog/15.6.png"><br>dns不同记录详解：<br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/momenglin/p/8556079.html">https://www.cnblogs.com/momenglin/p/8556079.html</a></p>
+<p>3&gt;<br><img src="https://image.p1n9.cn/blog/15.7.png"><br><img src="https://image.p1n9.cn/blog/15.8.png"><br><img src="https://image.p1n9.cn/blog/15.9.png"><br><img src="https://image.p1n9.cn/blog/15.10.png"></p>
 <blockquote>
 <p>dnsenum</p>
 </blockquote>
@@ -523,17 +523,17 @@ tcp或者udp的连接超时时间，默认为10s（时间单位：秒）
 -e, --exclude    &lt;regexp&gt;    反向查询选项，从反向查询结果中排除与正则表达式相符的PTR记录，在排查无效主机上非常有用
 -w, --whois    在一个C段网络地址范围提供whois查询
 其它没有描述的选项请输入：dnsenum    -h查询。</code></pre>
-<p><img src="http://image.12679.top/blog/15.11.png"><br>3&gt;<br><img src="http://image.12679.top/blog/15.12.png"></p>
+<p><img src="https://image.p1n9.cn/blog/15.11.png"><br>3&gt;<br><img src="https://image.p1n9.cn/blog/15.12.png"></p>
 <blockquote>
 <p>dmitry</p>
 </blockquote>
 <p>1&gt;功能：<br>根据IP（或域名）来查询目标主机的Whois信息<br>在Netcraft.com的网站上挖掘主机信息<br>查找目标域中用的子域<br>查找目标域的电子邮件地址<br>探测目标主机上打开的端口、被屏蔽的端口和关闭的端口</p>
-<p>2&gt;<br><img src="http://image.12679.top/blog/15.13.png"><br>3&gt;<br><img src="http://image.12679.top/blog/15.14.png"></p>
+<p>2&gt;<br><img src="https://image.p1n9.cn/blog/15.13.png"><br>3&gt;<br><img src="https://image.p1n9.cn/blog/15.14.png"></p>
 <blockquote>
 <p>lbd<br>1&gt;load balance detector<br>负载分担检测器<br>作用：查看DNS/HTTP/HTTPS有没有使用负载均衡</p>
 </blockquote>
 <p>2&gt;命令格式：<br>lbd 域名</p>
-<p>3&gt;用法<br>测试baidu.com的http的负载均衡，发现负载均衡，发现方式;DNS,HTTP[Diff]<br><img src="http://image.12679.top/blog/15.15.png"><br>测试https的负载均衡<br><img src="http://image.12679.top/blog/15.16.png"></p>
+<p>3&gt;用法<br>测试baidu.com的http的负载均衡，发现负载均衡，发现方式;DNS,HTTP[Diff]<br><img src="https://image.p1n9.cn/blog/15.15.png"><br>测试https的负载均衡<br><img src="https://image.p1n9.cn/blog/15.16.png"></p>
 <blockquote>
 <p>fierce<br>转载自：<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_34236869/article/details/91709966">https://blog.csdn.net/weixin_34236869/article/details/91709966</a><br>1&gt;作用：查找目标的IP和主机名，进行爆破子域名等<br>特点：可以设置多个不连续的IP地址，可以多线程运行<br>Fierce是一款IP、域名互查的DNS工具，可进行域传送漏洞检测、字典爆破子域名、反查IP段、反查指定域名上下一段IP，属于一款半轻量级的多线程信息收集用具。Fierce可尝试建立HTTP连接以确定子域名是否存在，此功能为非轻量级功能，所以，定义为半轻量级。</p>
 </blockquote>
@@ -559,7 +559,7 @@ Options:
         -wordlist &lt;sub.txt&gt;          使用指定的字典进行子域名爆破
 
 # [] 内的数据为可选数据、&lt;&gt; 内为必选数据</code></pre>
-<p>3&gt;简单用法<br>自带字典有2280个，很慢，还是测几个就行了，用自建字典<br><img src="http://image.12679.top/blog/15.17.png"><br><img src="http://image.12679.top/blog/15.18.png"></p>
+<p>3&gt;简单用法<br>自带字典有2280个，很慢，还是测几个就行了，用自建字典<br><img src="https://image.p1n9.cn/blog/15.17.png"><br><img src="https://image.p1n9.cn/blog/15.18.png"></p>
 <blockquote>
 <p>dnsrecon<br>1&gt;功能：<br>DNS侦察是渗透测试信息收集中重要的一部分。DNS侦察是为了从DNS服务器返回的记录中，获取更多信息。不用触发IDS/IPS即可获取网络设施相关的信息。大部分的企业不会监控DNS服务器，只会监视是否存在区域传输漏洞。</p>
 </blockquote>
@@ -623,15 +623,15 @@ Options:
        -j, --json        &lt;file&gt;                 json文件
 
        -v                                             显示爆破的过程</code></pre>
-<p>3&gt;实验：<br><img src="http://image.12679.top/blog/15.19.png"><br>对给定的IP范围进行域名反查<br><img src="http://image.12679.top/blog/15.20.png"></p>
+<p>3&gt;实验：<br><img src="https://image.p1n9.cn/blog/15.19.png"><br>对给定的IP范围进行域名反查<br><img src="https://image.p1n9.cn/blog/15.20.png"></p>
 <blockquote>
 <p>dnsmap<br>1&gt;dnsmap起源于2006年，是受到一个叫做“The Thief No One Saw”的小故事的启发后开发的，这个小故事能在Paul Craig的书《Stealing the Network - How to Own the Bow》中找到。</p>
 </blockquote>
 <p>dnsmap 主要用来在渗透测试的信息收集阶段来协助测试网络的基础设施的安全性，它能发现目标的网段，域名，甚至是电话号码等等。</p>
 <p>子域名穷举在穷举子域名方面也是一项新的技术，尤其是在域传送技术失效的时候。（在最近我很少看到公开允许域传输的例子)</p>
 <p>工具来源：<a target="_blank" rel="noopener" href="http://code.google.com/p/dnsmap/">http://code.google.com/p/dnsmap/</a></p>
-<p>2&gt;安装<br><img src="http://image.12679.top/blog/15.21.png"><br>下载之后放到kali系统上<br><img src="http://image.12679.top/blog/15.22.png"><br>3&gt;使用方法：<br>-w 手动指定字典<br>-r 保存成正则的文件<br>-c 保存成csv的文件<br>-d 显示millisecs<br>-i 忽略入侵防御系统</p>
-<p>因为防火墙的原因，这里穷举失败：具体用法就是那样的，知道即可<br><img src="http://image.12679.top/blog/15.23.png"><br>dnsmap target-domain.foo<br>dnsmap target-domain.foo -w yourwordlist.txt -r /tmp/domainbf_results.txt<br>dnsmap target-fomain.foo -r /tmp/ -d 3000<br>dnsmap target-fomain.foo -r ./domainbf_results.txt</p>
+<p>2&gt;安装<br><img src="https://image.p1n9.cn/blog/15.21.png"><br>下载之后放到kali系统上<br><img src="https://image.p1n9.cn/blog/15.22.png"><br>3&gt;使用方法：<br>-w 手动指定字典<br>-r 保存成正则的文件<br>-c 保存成csv的文件<br>-d 显示millisecs<br>-i 忽略入侵防御系统</p>
+<p>因为防火墙的原因，这里穷举失败：具体用法就是那样的，知道即可<br><img src="https://image.p1n9.cn/blog/15.23.png"><br>dnsmap target-domain.foo<br>dnsmap target-domain.foo -w yourwordlist.txt -r /tmp/domainbf_results.txt<br>dnsmap target-fomain.foo -r /tmp/ -d 3000<br>dnsmap target-fomain.foo -r ./domainbf_results.txt</p>
 <blockquote>
 <p>dnsdict6<br><strong>功能：</strong><br>扫描网站并显示有多少域或者子域，也可以扫描ipv6/ipv4地址。dnsdict6是一款功能强大的工具，它可以提取那些对用户限制或者不可见的子域。这一切证明了它是一个用来获取网站信息的好工具。</p>
 </blockquote>
@@ -642,7 +642,7 @@ cd thc-ipv6-2.7
 apt-get install libpcap-dev libssl-dev 
 make
 cp dnsdict6 /usr/bin</code></pre>
-<p>输入dnsdict6验证是否运行成功<br><img src="http://image.12679.top/blog/15.24.png"><br>方法：<br>工具自带字典：<br><img src="http://image.12679.top/blog/15.25.png"><br>探测baidu.com，子域名信息<br><img src="http://image.12679.top/blog/15.26.png"><br><img src="http://image.12679.top/blog/15.27.png"><br>用自己写的字典进行爆破<br><img src="http://image.12679.top/blog/15.28.png"><br><img src="http://image.12679.top/blog/15.29.png"><br>结果如下：<br><img src="http://image.12679.top/blog/15.30.png"></p>
+<p>输入dnsdict6验证是否运行成功<br><img src="https://image.p1n9.cn/blog/15.24.png"><br>方法：<br>工具自带字典：<br><img src="https://image.p1n9.cn/blog/15.25.png"><br>探测baidu.com，子域名信息<br><img src="https://image.p1n9.cn/blog/15.26.png"><br><img src="https://image.p1n9.cn/blog/15.27.png"><br>用自己写的字典进行爆破<br><img src="https://image.p1n9.cn/blog/15.28.png"><br><img src="https://image.p1n9.cn/blog/15.29.png"><br>结果如下：<br><img src="https://image.p1n9.cn/blog/15.30.png"></p>
 
             </div>
             <hr/>
@@ -658,7 +658,7 @@ cp dnsdict6 /usr/bin</code></pre>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://12679.top" rel="external nofollow noreferrer">P1n9</a>
+                    <a href="http://p1n9.cn" rel="external nofollow noreferrer">P1n9</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -668,7 +668,7 @@ cp dnsdict6 /usr/bin</code></pre>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://12679.top/2020/04/14/15/">http://12679.top/2020/04/14/15/</a>
+                    <a href="http://p1n9.cn/2020/04/14/15/">http://p1n9.cn/2020/04/14/15/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -681,7 +681,7 @@ cp dnsdict6 /usr/bin</code></pre>
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="http://12679.top" target="_blank">P1n9</a>
+                    <a href="http://p1n9.cn" target="_blank">P1n9</a>
                     !
                 </span>
             </div>
@@ -989,12 +989,12 @@ cp dnsdict6 /usr/bin</code></pre>
 </div>
 
 <script src="/libs/valine/av-min.js"></script>
-<script src="https://image.12679.top/valine/Valine.min.js"></script>
+<script src="https://image.p1n9.cn/valine/Valine.min.js"></script>
 <script>
     new Valine({
         el: '#vcomments',
-        appId: 'I3wOlp7afLKRV583imHzIju3-gzGzoHsz',
-        appKey: 'WKVJsARrWKVFK0wdDoInKM71',
+        appId: 'AyuymwyNaLFfImI9Q3TNPVAN-gzGzoHsz',
+        appKey: 'xx1nOrSBta51mL5WB1exTdOs',
         notify: 'false' === 'true',
         verify: 'false' === 'true',
         visitor: 'true' === 'true',
@@ -1020,7 +1020,7 @@ cp dnsdict6 /usr/bin</code></pre>
                     <div class="card-image">
                         
                         
-                        <img src="https://image.12679.top/featureimages/8.jpg" class="responsive-img" alt="kalix系统---信息收集小工具使用">
+                        <img src="https://image.p1n9.cn/featureimages/8.jpg" class="responsive-img" alt="kalix系统---信息收集小工具使用">
                         
                         <span class="card-title">kalix系统---信息收集小工具使用</span>
                     </div>
@@ -1080,7 +1080,7 @@ theHarvester
                     <div class="card-image">
                         
                         
-                        <img src="https://image.12679.top/featureimages/14.jpg" class="responsive-img" alt="kali系统安装和汉化">
+                        <img src="https://image.p1n9.cn/featureimages/14.jpg" class="responsive-img" alt="kali系统安装和汉化">
                         
                         <span class="card-title">kali系统安装和汉化</span>
                     </div>
@@ -1210,7 +1210,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 </div>
 
 
-<script src="https://image.12679.top/tocbot/tocbot.min.js"></script>
+<script src="https://image.p1n9.cn/tocbot/tocbot.min.js"></script>
 <script>
     $(function () {
         tocbot.init({
@@ -1298,11 +1298,11 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">2020</span>
-            <a href="http://12679.top" target="_blank">P1n9</a>
+            <a href="http://p1n9.cn" target="_blank">P1n9</a>
 			&nbsp;&nbsp;
             
             <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
-                <a href="http://www.beian.miit.gov.cn" target="_blank">晋ICP备20001718号-1</a>
+                <a href="http://www.beian.miit.gov.cn" target="_blank">晋ICP备20001718号-2</a>
             </span>
             
 			<br>
@@ -1437,16 +1437,16 @@ $(function () {
 </div>
 
 
-    <script src="https://image.12679.top/materialize/materialize.min.js"></script>
-    <script src="https://image.12679.top/masonry/masonry.pkgd.min.js"></script>
-    <script src="https://image.12679.top/aos/aos.js"></script>
-    <script src="https://image.12679.top/scrollprogress/scrollProgress.min.js"></script>
-    <script src="https://image.12679.top/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="https://image.p1n9.cn/materialize/materialize.min.js"></script>
+    <script src="https://image.p1n9.cn/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://image.p1n9.cn/aos/aos.js"></script>
+    <script src="https://image.p1n9.cn/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://image.p1n9.cn/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/js/matery.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161839843-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LXJ93MF8W5"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -1454,7 +1454,7 @@ $(function () {
     }
 
     gtag('js', new Date());
-    gtag('config', 'UA-161839843-1');
+    gtag('config', 'G-LXJ93MF8W5');
 </script>
 
 
@@ -1464,7 +1464,7 @@ $(function () {
     var _hmt = _hmt || [];
     (function () {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?7fc02ada382f9c86da55ef7e31ca60f8";
+        hm.src = "https://hm.baidu.com/hm.js?e1b8c0884f83ab30bdc4fb0fcd4c7b44";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
     })();
@@ -1487,10 +1487,10 @@ $(function () {
 </script>
 
     
-    <script src="https://image.12679.top/others/clicklove.js" async="async"></script>
+    <script src="https://image.p1n9.cn/others/clicklove.js" async="async"></script>
     
     
-    <script async src="https://image.12679.top/others/busuanzi.pure.mini.js"></script>
+    <script async src="https://image.p1n9.cn/others/busuanzi.pure.mini.js"></script>
     
 
     
@@ -1501,17 +1501,17 @@ $(function () {
     <script type="text/javascript" color="0,0,255"
         pointColor="0,0,255" opacity='0.7'
         zIndex="-1" count="99"
-        src="https://image.12679.top/background/canvas-nest.js"></script>
+        src="https://image.p1n9.cn/background/canvas-nest.js"></script>
     
 
     
 
     
-    <script type="text/javascript" src="https://image.12679.top/background/ribbon-dynamic.js" async="async"></script>
+    <script type="text/javascript" src="https://image.p1n9.cn/background/ribbon-dynamic.js" async="async"></script>
     
     
     
-    <script src="https://image.12679.top/instantpage/instantpage.js" type="module"></script>
+    <script src="https://image.p1n9.cn/instantpage/instantpage.js" type="module"></script>
     
 	
 	<!-- 页面点击特效 -->
