@@ -1,0 +1,1554 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="论文阅读分享, P1n9">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>论文阅读分享 | P1n9</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://image.p1n9.cn/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="https://image.p1n9.cn/jquery/jquery.min.js"></script>
+    
+<meta name="generator" content="Hexo 5.2.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="P1n9" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">P1n9</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/galleries" class="waves-effect waves-light">
+      
+      <i class="fas fa-image" style="zoom: 0.6;"></i>
+      
+      <span>相册</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">P1n9</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/galleries" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-image"></i>
+			
+			相册
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/zdy/zdy.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/zdy/zdy.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://image.p1n9.cn/featureimages/8.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">论文阅读分享</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="https://image.p1n9.cn/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E5%AF%B9%E6%8A%97/">
+                                <span class="chip bg-color">恶意软件对抗</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">
+                                <span class="chip bg-color">机器学习</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/" class="post-category">
+                                二进制安全
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2022-02-27
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2022-02-27
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    5.2k
+                </div>
+                
+
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="恶意软件对抗研究"><a href="#恶意软件对抗研究" class="headerlink" title="恶意软件对抗研究"></a>恶意软件对抗研究</h1><h2 id="When-Malware-is-Packin’-Heat-Limits-of-Machine-Learning-Classifiers-Based-on-Static-Analysis-Features"><a href="#When-Malware-is-Packin’-Heat-Limits-of-Machine-Learning-Classifiers-Based-on-Static-Analysis-Features" class="headerlink" title="When Malware is Packin’ Heat; Limits of Machine Learning Classifiers Based on Static Analysis Features"></a>When Malware is Packin’ Heat; Limits of Machine Learning Classifiers Based on Static Analysis Features</h2><p>机器学习快速发展，当前工业界和学术界对于恶意软件识别研究的结果，作者对其提出疑问，称没考虑加壳对分类的影响，忽略了这个重要因素，并且作者证明了从加壳可执行文件中提取的特征不能充分去1）泛化其他未知packer，2）对对抗样本具有鲁棒性。并且指出了当前推出的不成熟的机器学习应用会导致大量的误报，而且训练使用的数据集是不正确的。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/44d1580f-52d3-4cdd-a0b1-bd7208aa2771#%20%E3%80%8AWhen%20Malware%20is%20Packin%27%20Heat;%20Limits%20of%20Machine%20Learning%20Classifiers%20Based%20on%20Static%20Analysis%20Features%E3%80%8B">https://www.yuque.com/docs/share/44d1580f-52d3-4cdd-a0b1-bd7208aa2771?# 《When Malware is Packin’ Heat; Limits of Machine Learning Classifiers Based on Static Analysis Features》</a></p>
+<h2 id="Generating-Adversarial-Malware-Examples-for-Black-Box-Attacks-Based-on-GAN"><a href="#Generating-Adversarial-Malware-Examples-for-Black-Box-Attacks-Based-on-GAN" class="headerlink" title="Generating Adversarial Malware Examples for Black-Box Attacks Based on GAN"></a>Generating Adversarial Malware Examples for Black-Box Attacks Based on GAN</h2><p>Hu和Tan等人提出了一种基于生成对抗网络（GAN）的黑盒攻击方法去规避静态恶意软件检测，叫做MalGAN，MalGAN假设攻击者知道目标模型全部特征空间（通过模型反馈结果猜出），它首先建立了大量不同的检测器去拟合黑盒模型，然后训练生成网络去最小化对抗样本的恶意概率。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/afff70e2-6b42-44ec-9446-d8aa5ee37e40#%20%E3%80%8AGenerating%20Adversarial%20Malware%20Examples%20for%20Black-Box%20Attacks%20Based%20on%20GAN%E3%80%8B">https://www.yuque.com/docs/share/afff70e2-6b42-44ec-9446-d8aa5ee37e40?# 《Generating Adversarial Malware Examples for Black-Box Attacks Based on GAN》</a></p>
+<h2 id="Exploring-Adversarial-Examples-in-Malware-Detection"><a href="#Exploring-Adversarial-Examples-in-Malware-Detection" class="headerlink" title="Exploring Adversarial Examples in Malware Detection"></a>Exploring Adversarial Examples in Malware Detection</h2><p>Octavian Suciu等人提出了两种不同的白盒攻击策略来规避静态恶意软件检测模型，分别是append attack和slack attack。append attack将字节序列添加到文件末尾实施攻击，而slack attack是对slack bytes进行修改实施攻击，append攻击可采用多种不同的策略，Random，Gradient，Benign和FGM，而slack attack只采用了FGM，结果证明了slack attack比append attack更有效。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/5c541657-284d-4423-8d70-61b8868471a6#%20%E3%80%8AExploring%20Adversarial%20Examples%20in%20Malware%20Detection%E3%80%8B">https://www.yuque.com/docs/share/5c541657-284d-4423-8d70-61b8868471a6?# 《Exploring Adversarial Examples in Malware Detection》</a></p>
+<h2 id="Adversarial-Deep-Learning-for-Robust-Detection-of-Binary-Encoded-Malware"><a href="#Adversarial-Deep-Learning-for-Robust-Detection-of-Binary-Encoded-Malware" class="headerlink" title="Adversarial Deep Learning for Robust Detection of Binary Encoded Malware"></a>Adversarial Deep Learning for Robust Detection of Binary Encoded Malware</h2><p>中心目标：我们的中心目标是研究如何将针对连续域的稳健对抗训练方法转换为服务于包括恶意软件的离散或分类特征域。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/d45bde2f-976d-4ec2-8971-17caf9212b41#%20%E3%80%8AAdversarial%20Deep%20Learning%20for%20Robust%20Detection%20of%20Binary%20Encoded%20Malware%E3%80%8B">https://www.yuque.com/docs/share/d45bde2f-976d-4ec2-8971-17caf9212b41?# 《Adversarial Deep Learning for Robust Detection of Binary Encoded Malware》</a></p>
+<h2 id="On-Visual-Hallmarks-of-Robustness-to-Adversarial-Malware"><a href="#On-Visual-Hallmarks-of-Robustness-to-Adversarial-Malware" class="headerlink" title="On Visual Hallmarks of Robustness to Adversarial Malware"></a>On Visual Hallmarks of Robustness to Adversarial Malware</h2><p>视觉方法：提出对抗性损失景观方法和决策、自组织地图方法，有助于解释强化的 NN 模型。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/8b361851-6a9a-41e9-9818-3c97a156dc88#%20%E3%80%8AOn%20Visual%20Hallmarks%20of%20Robustness%20to%20Adversarial%20Malware%E3%80%8B">https://www.yuque.com/docs/share/8b361851-6a9a-41e9-9818-3c97a156dc88?# 《On Visual Hallmarks of Robustness to Adversarial Malware》</a></p>
+<h2 id="Heterogeneous-Graph-Matching-Networks-for-Unknown-Malware-Detection"><a href="#Heterogeneous-Graph-Matching-Networks-for-Unknown-Malware-Detection" class="headerlink" title="Heterogeneous Graph Matching Networks for Unknown Malware Detection"></a>Heterogeneous Graph Matching Networks for Unknown Malware Detection</h2><p>Shen Wang等人提出一种动态检测恶意程序的模型叫MatchGNet，该框架首先通过程序的快照获取程序的行为，利用该模型提取图的语义的特征，然后使用孪生神经网络进行相似度测量，该模型不仅能够检测恶意程序，还能识别未知程序和假程序，最终MatchGNet相比当前最优的恶意软件检测算法减少了50％的误报，同时保持零漏报。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/0ceceb24-85ea-49f0-903f-5201d1fe59e7#%20%E3%80%8AHeterogeneous%20Graph%20Matching%20Networks%20for%20Unknown%20Malware%20Detection%E3%80%8B">https://www.yuque.com/docs/share/0ceceb24-85ea-49f0-903f-5201d1fe59e7?# 《Heterogeneous Graph Matching Networks for Unknown Malware Detection》</a></p>
+<h2 id="Shallow-Security-on-the-Creation-of-Adversarial-Variants-to-Evade-Machine-Learning-Based-Malware-Detectors"><a href="#Shallow-Security-on-the-Creation-of-Adversarial-Variants-to-Evade-Machine-Learning-Based-Malware-Detectors" class="headerlink" title="Shallow Security: on the Creation of Adversarial Variants to Evade Machine Learning-Based Malware Detectors"></a>Shallow Security: on the Creation of Adversarial Variants to Evade Machine Learning-Based Malware Detectors</h2><p>Fabrício Ceschin等人参加了2019年8月的挑战，该挑战是由endgame公司提出的50个恶意软件绕过3个静态检测模型的挑战，并获得了冠军，主要思路是首先将恶意软件放在dropper软件的资源节区，然后在dropper末尾添加善意软件的data，最后生成不影响恶意软件真实行为，而且能够绕过静态检测模型的软件，并且该方法对真实世界中的AV引擎也起到了作用，降低了检测率。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/548d24a8-913d-43cf-85bd-ebe9c15ce990#%20%E3%80%8AShallow%20Security:%20on%20the%20Creation%20of%20Adversarial%20Variants%20to%20Evade%20Machine%20Learning-Based%20Malware%20Detectors%E3%80%8B">https://www.yuque.com/docs/share/548d24a8-913d-43cf-85bd-ebe9c15ce990?# 《Shallow Security: on the Creation of Adversarial Variants to<br>Evade Machine Learning-Based Malware Detectors》</a></p>
+<h2 id="Static-Malware-Detection-amp-Subterfuge-Quantifying-the-Robustness-of-Machine-Learning-and-Current-Anti-Virus"><a href="#Static-Malware-Detection-amp-Subterfuge-Quantifying-the-Robustness-of-Machine-Learning-and-Current-Anti-Virus" class="headerlink" title="Static Malware Detection &amp; Subterfuge: Quantifying the Robustness of Machine Learning and Current Anti-Virus"></a>Static Malware Detection &amp; Subterfuge: Quantifying the Robustness of Machine Learning and Current Anti-Virus</h2><p>William Fleshman等人提出了用四种黑盒攻击方法来量化机器学习模型和当前AV的鲁棒性，分别是随机选择良性修改、有针对性的重要字节遮挡、对文件加壳和ROP注入，其中作者的主要贡献是有针对性的重要字节遮挡，能够找到重要的字节区域进行遮挡，但是这种方法会对恶意软件的功能造成影响。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/2b2de1b2-88d4-44de-aa51-8712768cedea#%20%E3%80%8AStatic%20Malware%20Detection%20&amp;%20Subterfuge:%20Quantifying%20the%20Robustness%20of%20Machine%20Learning%20and%20Current%20Anti-Virus%E3%80%8B">https://www.yuque.com/docs/share/2b2de1b2-88d4-44de-aa51-8712768cedea?# 《Static Malware Detection &amp; Subterfuge:<br>Quantifying the Robustness of Machine Learning<br>and Current Anti-Virus》</a></p>
+<h2 id="Adversarial-Malware-Binaries-Evading-Deep-Learning-for-Malware-Detection-in-Executables"><a href="#Adversarial-Malware-Binaries-Evading-Deep-Learning-for-Malware-Detection-in-Executables" class="headerlink" title="Adversarial Malware Binaries: Evading Deep Learning for Malware Detection in Executables"></a>Adversarial Malware Binaries: Evading Deep Learning for Malware Detection in Executables</h2><p>Bojan Kolosnjaji等人提出一种基于梯度的白盒攻击来绕过基于字节特征的MalConv深度学习模型，通过改变恶意软件末尾的少数字节来进行攻击，同时能够保持其软件的功能性，结果显示注入了仅仅10000字节使得Malconv准确率下降50%，但只修改了少于软件1%的字节数。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/a56370da-002f-4e73-8fe4-344d13879820#%20%E3%80%8AAdversarial%20Malware%20Binaries:%20Evading%20Deep%20Learning%20for%20Malware%20Detection%20in%20Executables%E3%80%8B">https://www.yuque.com/docs/share/a56370da-002f-4e73-8fe4-344d13879820?# 《Adversarial Malware Binaries: Evading Deep<br>Learning for Malware Detection in Executables》</a></p>
+<h2 id="ROPInjector-Using-Return-Oriented-Programming-for-Polymorphism-and-Antivirus-Evasion"><a href="#ROPInjector-Using-Return-Oriented-Programming-for-Polymorphism-and-Antivirus-Evasion" class="headerlink" title="ROPInjector: Using Return Oriented Programming for Polymorphism and Antivirus Evasion"></a>ROPInjector: Using Return Oriented Programming for Polymorphism and Antivirus Evasion</h2><p>Giorgos Poulios等人提出了一种使用ROP注入来绕过AV软件的黑盒攻击方法，并且开发了对应的工具来实现这一攻击，主要是将恶意的shellcode转换成对应的ROP等价表示，并将其patch到PE文件中，此方法还能通过不同组合生成不同的变种，结果也证明ROPInjector能几乎绕过在VirusTotal上的antivirus software。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/b6119966-5786-4b57-b15d-4042be0293ef#%20%E3%80%8AROPInjector:%20Using%20Return%20Oriented%20Programming%20for%20Polymorphism%20and%20Antivirus%20Evasion%E3%80%8B">https://www.yuque.com/docs/share/b6119966-5786-4b57-b15d-4042be0293ef?# 《ROPInjector: Using Return Oriented Programming for<br>Polymorphism and Antivirus Evasion》</a></p>
+<h2 id="Deceiving-End-to-End-Deep-Learning-Malware-Detectors-using-Adversarial-Examples"><a href="#Deceiving-End-to-End-Deep-Learning-Malware-Detectors-using-Adversarial-Examples" class="headerlink" title="Deceiving End-to-End Deep Learning Malware Detectors using Adversarial Examples"></a>Deceiving End-to-End Deep Learning Malware Detectors using Adversarial Examples</h2><p>Felix Kreuk等人提出了一种新的白盒攻击方法来攻击MalConv这个端到端的深度学习恶意软件检测模型，该方法首先在编码层的两个位置（mid-file和end-file）进行注入一段随机数据，接着使用FGSM来更新修改注入的数据，最后从编码层重构造返回到输入层，结果也显示出得到的payload能够在同一文件不同位置，不同文件也适用。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/c4230bf0-54d4-4444-bb80-3350378e0226#%20%E3%80%8ADeceiving%20End-to-End%20Deep%20Learning%20Malware%20Detectors%20using%20Adversarial%20Examples%E3%80%8B">https://www.yuque.com/docs/share/c4230bf0-54d4-4444-bb80-3350378e0226?# 《Deceiving End-to-End Deep Learning Malware<br>Detectors using Adversarial Examples》</a></p>
+<h2 id="AMVG-Adaptive-Malware-Variant-Generation-Framework-Using-Machine-Learning"><a href="#AMVG-Adaptive-Malware-Variant-Generation-Framework-Using-Machine-Learning" class="headerlink" title="AMVG: Adaptive Malware Variant Generation Framework Using Machine Learning"></a>AMVG: Adaptive Malware Variant Generation Framework Using Machine Learning</h2><p>Jusop Choi等人提出了一种使用遗传算法的AMVG白盒攻击框架去绕过恶意软件检测方法，该框架主要针对源代码型的恶意软件，在知道目标检测器的细节的基础上，GA能够应用不同的模块自动生成有效且能够绕过检测器的对抗样本，变异操作既包括了影响功能的操作和不影响功能的操作，实验结果表明在一定时间内自动生成恶意软件变体是可行的。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/149e55b9-8535-4868-b306-1f07bc8d8a6d#%20%E3%80%8AAMVG:%20Adaptive%20Malware%20Variant%20Generation%20Framework%20Using%20Machine%20Learning%E3%80%8B">https://www.yuque.com/docs/share/149e55b9-8535-4868-b306-1f07bc8d8a6d?# 《AMVG: Adaptive Malware Variant Generation<br>Framework Using Machine Learning》</a></p>
+<h2 id="ARMED-How-Automatic-Malware-Modifications-Can-Evade-Static-Detection"><a href="#ARMED-How-Automatic-Malware-Modifications-Can-Evade-Static-Detection" class="headerlink" title="ARMED: How Automatic Malware Modifications Can Evade Static Detection?"></a>ARMED: How Automatic Malware Modifications Can Evade Static Detection?</h2><p>Raphael Labaca Castro等人提出一种黑盒攻击ARMED框架来绕过静态检测，首先windows的PE文件上先经过修改box对文件进行修改生成变异体，接着检测变异体的功能性是否完整，最后通过检测引擎生成检测率并判断是否绕过成功，实验结果表明有一定效果，但其中有很多地方都需要进行改进。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/baed8fa5-0faf-4239-83da-4165baa4546a#%20%E3%80%8AARMED:%20How%20Automatic%20Malware%20Modifications%20Can%20Evade%20Static%20Detection?%E3%80%8B">https://www.yuque.com/docs/share/baed8fa5-0faf-4239-83da-4165baa4546a?# 《ARMED: How Automatic Malware Modifications Can Evade Static Detection?》</a></p>
+<h2 id="AIMED-Evolving-Malware-with-Genetic-Programming-to-Evade-Detection"><a href="#AIMED-Evolving-Malware-with-Genetic-Programming-to-Evade-Detection" class="headerlink" title="AIMED: Evolving Malware with Genetic Programming to Evade Detection"></a>AIMED: Evolving Malware with Genetic Programming to Evade Detection</h2><p>Raphael Labaca Castro等人是第一次提出基于遗传规划的黑盒攻击框架去绕过恶意软件检测，叫AIMED，AIMED首先利用Manipulation box生成种群，然后计算适应度函数值，如果没有绕过，利用selection，Crossover和Mutation操作来生成新的一代。实验结果表示时间消耗比随机的降低50%。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/fdfe73e2-487c-4db4-abf8-5611c0209572#%20%E3%80%8AAIMED:%20Evolving%20Malware%20with%20Genetic%20Programming%20to%20Evade%20Detection%E3%80%8B">https://www.yuque.com/docs/share/fdfe73e2-487c-4db4-abf8-5611c0209572?# 《AIMED: Evolving Malware with<br>Genetic Programming to Evade Detection》</a></p>
+<h2 id="Optimization-Guided-Binary-Diversification-to-Mislead-Neural-Networks-for-Malware-Detection"><a href="#Optimization-Guided-Binary-Diversification-to-Mislead-Neural-Networks-for-Malware-Detection" class="headerlink" title="Optimization-Guided Binary Diversification to Mislead Neural Networks for Malware Detection"></a>Optimization-Guided Binary Diversification to Mislead Neural Networks for Malware Detection</h2><p>Mahmood Sharif等人提出一种白盒攻击方法，通过优化算法去指导二进制文件的转变从而绕过DNN的检测，假设攻击者知道DNN的参数，首先计算当前修改后文件对于DNN的梯度，接着选择与梯度方向一致的Transformation对文件进行修改，其中，Transformation包括in-place randomization (IPR)和code displacement (Disp).<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/ebe1cce1-9688-4d14-8cf2-611c94ecc780#%20%E3%80%8AOptimization-Guided%20Binary%20Diversification%20to%20Mislead%20Neural%20Networks%20for%20Malware%20Detection%E3%80%8B">https://www.yuque.com/docs/share/ebe1cce1-9688-4d14-8cf2-611c94ecc780?# 《Optimization-Guided Binary Diversification to<br>Mislead Neural Networks for Malware Detection》</a></p>
+<h2 id="Poster-Training-GANs-to-Generate-Adversarial-Examples-Against-Malware-Classification"><a href="#Poster-Training-GANs-to-Generate-Adversarial-Examples-Against-Malware-Classification" class="headerlink" title="Poster: Training GANs to Generate Adversarial Examples Against Malware Classification"></a>Poster: Training GANs to Generate Adversarial Examples Against Malware Classification</h2><p>Raphael Labaca Castro等人提出了一个与MalGAN架构不同的GAN网络对模型进行黑盒攻击，不同地方在于生成器所使用的扰动和特征不同，首先通过discriminator来拟合黑盒模型，然后通过训练使得生成器添加的字节扰动能够绕过模型。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/6823c1a8-fa72-44bc-9c86-9a2ca7523993#%20%E3%80%8APoster:%20Training%20GANs%20to%20Generate%20Adversarial%20Examples%20Against%20Malware%20Classification%E3%80%8B">https://www.yuque.com/docs/share/6823c1a8-fa72-44bc-9c86-9a2ca7523993?# 《Poster: Training GANs to Generate Adversarial<br>Examples Against Malware Classification》</a></p>
+<h2 id="Poster-Attacking-Malware-Classifiers-by-Crafting-Gradient-Attacks-that-Preserve-Functionality"><a href="#Poster-Attacking-Malware-Classifiers-by-Crafting-Gradient-Attacks-that-Preserve-Functionality" class="headerlink" title="Poster: Attacking Malware Classifiers by Crafting Gradient-Attacks that Preserve Functionality"></a>Poster: Attacking Malware Classifiers by Crafting Gradient-Attacks that Preserve Functionality</h2><p><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/3eef3951-8831-4264-9647-c3fa5c8de8f1#%20%E3%80%8APoster:%20Attacking%20Malware%20Classifiers%20by%20Crafting%20Gradient-Attacks%20that%20Preserve%20Functionality%E3%80%8B">https://www.yuque.com/docs/share/3eef3951-8831-4264-9647-c3fa5c8de8f1?# 《Poster: Attacking Malware Classifiers by Crafting<br>Gradient-Attacks that Preserve Functionality》</a></p>
+<h2 id="Explaining-Vulnerabilities-of-Deep-Learning-to-Adversarial-Malware-Binaries"><a href="#Explaining-Vulnerabilities-of-Deep-Learning-to-Adversarial-Malware-Binaries" class="headerlink" title="Explaining Vulnerabilities of Deep Learning to Adversarial Malware Binaries"></a>Explaining Vulnerabilities of Deep Learning to Adversarial Malware Binaries</h2><p>采用IG方法提取出哪个特征对分类最重要，发现比较重要的特征来自于coff和可选头，Luca Demetrio等人提出了一种novel基于梯度的白盒攻击（借鉴了Bojan Kolosnjaji的攻击方法）来绕过基于字节特征的MalConv深度学习模型，首先计算DOS头中可修改字节的单位梯度，接着替换为距离梯度直线最近的字节值，结果来源于public 的60 different malware中有52个绕过了Malconv模型。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/95b238b6-48a0-44da-a3e5-b4edc42f6c47#%20%E3%80%8AExplaining%20Vulnerabilities%20of%20Deep%20Learning%20to%20Adversarial%20Malware%20Binaries%E3%80%8B">https://www.yuque.com/docs/share/95b238b6-48a0-44da-a3e5-b4edc42f6c47?# 《Explaining Vulnerabilities of Deep Learning to<br>Adversarial Malware Binaries》</a></p>
+<h2 id="Adversarial-EXEmples-A-Survey-and-Experimental-Evaluation-of-Practical-Attacks-on-Machine-Learning-for-Windows-Malware-Detectio"><a href="#Adversarial-EXEmples-A-Survey-and-Experimental-Evaluation-of-Practical-Attacks-on-Machine-Learning-for-Windows-Malware-Detectio" class="headerlink" title="Adversarial EXEmples: A Survey and Experimental Evaluation of Practical Attacks on Machine Learning for Windows Malware Detectio"></a>Adversarial EXEmples: A Survey and Experimental Evaluation of Practical Attacks on Machine Learning for Windows Malware Detectio</h2><p>Luca Demetrio等人提出了一个白盒攻击方法，名字叫Extend and Shift攻击（对两个攻击进行介绍），首先计算输入的编码向量的梯度，按单位梯度排序取前个预计要修改的字节，最后替换为距离梯度直线最近的字节值，结果效果优于其他几个攻击方法（用文献编号代替）<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/b82e68fe-9a51-45b3-afd0-c357412a7aae#%20%E3%80%8AAdversarial%20EXEmples:%20A%20Survey%20and%20Experimental%20Evaluation%20of%20Practical%20Attacks%20on%20Machine%20Learning%20for%20Windows%20Malware%20Detectio%E3%80%8B">https://www.yuque.com/docs/share/b82e68fe-9a51-45b3-afd0-c357412a7aae?# 《Adversarial EXEmples: A Survey and Experimental Evaluation of Practical<br>Attacks on Machine Learning for Windows Malware Detectio》</a></p>
+<h2 id="Functionality-preserving-Black-box-Optimization-of-Adversarial-Windows-Malware"><a href="#Functionality-preserving-Black-box-Optimization-of-Adversarial-Windows-Malware" class="headerlink" title="Functionality-preserving Black-box Optimization of Adversarial Windows Malware"></a>Functionality-preserving Black-box Optimization of Adversarial Windows Malware</h2><p>Luca Demetrio等人提出了一种使用遗传算法的黑盒攻击方法去绕过静态检测，作者相对于其他黑盒攻击方法做的改变就是将善意文件section注入与遗传算法结合起来，首先从善意文件的 section中随机提取出k段不同长度的字节序列，接着随机生成N个长度为k的向量（每一位0代表不添加对应的字节序列，1为添加），最后，经过选择，交叉，变异等操作生成对抗样本（使用较小的查询量和注入字节大小），该方法也能够对只能得到label的模型进行攻击。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/758fdfbd-a38f-462e-b832-ae8d83595f35#%20%E3%80%8AFunctionality-preserving%20Black-box%20Optimization%20of%20Adversarial%20Windows%20Malware%E3%80%8B">https://www.yuque.com/docs/share/758fdfbd-a38f-462e-b832-ae8d83595f35?# 《Functionality-preserving Black-box Optimization of<br>Adversarial Windows Malware》</a></p>
+<h2 id="Automatic-Generation-of-Adversarial-Examples-for-Interpreting-Malware-Classifiers"><a href="#Automatic-Generation-of-Adversarial-Examples-for-Interpreting-Malware-Classifiers" class="headerlink" title="Automatic Generation of Adversarial Examples for Interpreting Malware Classifiers"></a>Automatic Generation of Adversarial Examples for Interpreting Malware Classifiers</h2><p>Wei Song等人提出了一个黑盒攻击框架来生成对抗样本去绕过AV和开源分类器，首先随机生成一系列action序列来生成对抗样本，接着提升有效的action的权重，有利于被下一次选中，此外，作者还通过最小化算法对action序列进行处理从而对攻击成功的原因进行解释，最后从查询次数，时间，可转移性等方面来验证了框架的有效性。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/ba6e637b-3de7-4392-b806-78bacda6b327#%20%E3%80%8AAutomatic%20Generation%20of%20Adversarial%20Examples%20for%20Interpreting%20Malware%20Classifiers%E3%80%8B">https://www.yuque.com/docs/share/ba6e637b-3de7-4392-b806-78bacda6b327?# 《Automatic Generation of Adversarial Examples for Interpreting Malware<br>Classifiers》</a></p>
+<h2 id="Against-All-Odds-Winning-the-Defense-Challenge-in-an-Evasion-Competition-with-Diversification"><a href="#Against-All-Odds-Winning-the-Defense-Challenge-in-an-Evasion-Competition-with-Diversification" class="headerlink" title="Against All Odds: Winning the Defense Challenge in an Evasion Competition with Diversification"></a>Against All Odds: Winning the Defense Challenge in an Evasion Competition with Diversification</h2><p>Erwin Quiring等人参加了微软恶意软件绕过挑战赛并获得了第一名<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/f3e3db18-9600-4358-a75e-d90d23293f41#%20%E3%80%8AAgainst%20All%20Odds:%20Winning%20the%20Defense%20Challenge%20in%20an%20Evasion%20Competition%20with%20Diversification%E3%80%8B">https://www.yuque.com/docs/share/f3e3db18-9600-4358-a75e-d90d23293f41?# 《Against All Odds: Winning the Defense Challenge<br>in an Evasion Competition with Diversification》</a></p>
+<h2 id="Generation-amp-Evaluation-of-Adversarial-Examples-for-Malware-Obfuscation"><a href="#Generation-amp-Evaluation-of-Adversarial-Examples-for-Malware-Obfuscation" class="headerlink" title="Generation &amp; Evaluation of Adversarial Examples for Malware Obfuscation"></a>Generation &amp; Evaluation of Adversarial Examples for Malware Obfuscation</h2><p>Daniel Park等人提出了一个使用恶意软件图像混淆方法去生成对抗样本的白盒攻击方法，首先采用FGSM和CW攻击方法生成不能激活的对抗样本图像，接着采用最短编辑距离的算法对之前生成的对抗样本和原样本进行处理，得到原样本中可以插入语义nop的位置和对应的语义nop，用最后形成的保存恶意功能的对抗样本进行实验，结果优于其他随机方法的混淆方法。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/07d63886-8571-4b9e-9a75-91d7709e88a1#%20%E3%80%8AGeneration%20&amp;%20Evaluation%20of%20Adversarial%20Examples%20for%20Malware%20Obfuscation%E3%80%8B">https://www.yuque.com/docs/share/07d63886-8571-4b9e-9a75-91d7709e88a1?# 《Generation &amp; Evaluation of Adversarial Examples for<br>Malware Obfuscation》</a></p>
+<h2 id="An-Adversarial-Machine-Learning-Method-Based-on-OpCode-N-grams-Feature-in-Malware-Detection"><a href="#An-Adversarial-Machine-Learning-Method-Based-on-OpCode-N-grams-Feature-in-Malware-Detection" class="headerlink" title="An Adversarial Machine Learning Method Based on OpCode N-grams Feature in Malware Detection"></a>An Adversarial Machine Learning Method Based on OpCode N-grams Feature in Malware Detection</h2><p>Xiang Li等人提出一种白盒攻击方法去找到Window上的可执行文件的对抗特征，他首先用训练集中的每个opcode的DF值提取前1000个Opcode，接着将TF-IDF权重作为特征进行训练生成三个模型，分别是SVM，DNN，XGBoost，此外，使用SHAP值找到重要的特征并且使用传统的指令替代的混淆方法对随机选取的10个样本生成对抗样本绕过生成的三个模型，最后结果全部绕过。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/aa2ad23d-7e25-42ea-96cf-a79abce87db1#%20%E3%80%8AAn%20Adversarial%20Machine%20Learning%20Method%20Based%20on%20OpCode%20N-grams%20Feature%20in%20Malware%20Detection%E3%80%8B">https://www.yuque.com/docs/share/aa2ad23d-7e25-42ea-96cf-a79abce87db1?# 《An Adversarial Machine Learning Method Based on OpCode N-grams Feature in<br>Malware Detection》</a></p>
+<h2 id="An-adversarial-machine-learning-approach-to-evaluate-the-robustness-of-a-security-solution"><a href="#An-adversarial-machine-learning-approach-to-evaluate-the-robustness-of-a-security-solution" class="headerlink" title="An adversarial machine learning approach to evaluate the robustness of a security solution"></a>An adversarial machine learning approach to evaluate the robustness of a security solution</h2><p>本文并没有集中在GAN算法（文中没有具体介绍算法细节）层面，主要是进行了实验，探讨怎样的配置使得对抗学习训练出的模型最具鲁棒性（主要是如何训练）<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/44aebfbb-639d-49ed-b173-145310b30c9d#%20%E3%80%8AAn%20adversarial%20machine%20learning%20approach%20to%20evaluate%20the%20robustness%20of%20a%20security%20solution%E3%80%8B">https://www.yuque.com/docs/share/44aebfbb-639d-49ed-b173-145310b30c9d?# 《An adversarial machine learning approach to evaluate the robustness of a security<br>solution》</a></p>
+<h2 id="COPYCAT-Practical-Adversarial-Attacks-on-Visualization-Based-Malware-Detection"><a href="#COPYCAT-Practical-Adversarial-Attacks-on-Visualization-Based-Malware-Detection" class="headerlink" title="COPYCAT: Practical Adversarial Attacks on Visualization-Based Malware Detection"></a>COPYCAT: Practical Adversarial Attacks on Visualization-Based Malware Detection</h2><p>Aminollah Khormali等人提出一种非目标性的白盒攻击方法去绕过CNN模型的检测，名字叫AE padding，首先将二进制软件转化为灰度图像，利用现存的五种深度学习对抗攻击方法生成不能被激活的对抗样本，将对抗样本添加到源文件的末尾，实验结果显示了高的绕过率。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/fe7bc40b-e464-4fa2-a769-81b52e51d10b#%20%E3%80%8ACOPYCAT:%20Practical%20Adversarial%20Attacks%20on%20Visualization-Based%20Malware%20Detection%E3%80%8B">https://www.yuque.com/docs/share/fe7bc40b-e464-4fa2-a769-81b52e51d10b?# 《COPYCAT: Practical Adversarial Attacks<br>on Visualization-Based Malware Detection》</a></p>
+<h2 id="Improved-MalGAN-Avoiding-Malware-Detector-by-Leaning-Cleanware-Features"><a href="#Improved-MalGAN-Avoiding-Malware-Detector-by-Leaning-Cleanware-Features" class="headerlink" title="Improved MalGAN: Avoiding Malware Detector by Leaning Cleanware Features"></a>Improved MalGAN: Avoiding Malware Detector by Leaning Cleanware Features</h2><p>Masataka Kawai等人对Hu等人提出的MalGAN网络提出了四个缺点并进行改进，它首先首先多个cleanware和一个malware创建一个API list（被生成器和取代器使用），生成器通过加入一些cleanware的API来生成扰动去绕过模型（使用另外的API list) 检测，基于取代器的权重训练生成器降低loss。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/aca0603b-a140-4e4f-bbcb-08b15a9589c6#%20%E3%80%8AImproved%20MalGAN:%20Avoiding%20Malware%20Detector%20by%20Leaning%20Cleanware%20Features%E3%80%8B">https://www.yuque.com/docs/share/aca0603b-a140-4e4f-bbcb-08b15a9589c6?# 《Improved MalGAN: Avoiding Malware Detector by<br>Leaning Cleanware Features》</a></p>
+<h2 id="Adversarial-Examples-for-CNN-Based-Malware-Detectors"><a href="#Adversarial-Examples-for-CNN-Based-Malware-Detectors" class="headerlink" title="Adversarial Examples for CNN-Based Malware Detectors"></a>Adversarial Examples for CNN-Based Malware Detectors</h2><p>BINGCAI CHEN等人提出了一种利用saliency vector的白盒攻击方法去绕过Malconv检测模型，它首先根据善意文件的saliency vector（using the Grad-CAM method)找到对善意分类重要的数据块，接着随机选取一个数据块append到恶意文件的末尾，并且使用FGSM方法对添加的数据块进行修改，当恶意软件的loss值小于一个固定值时，停止修改，最后判断是否成功绕过检测模型。试验结果显示当append byte较少时，使用FGSM的BFA的攻击效果远好于单纯的BFA攻击，当append byte变大时，两个的效果变得差不多。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/377a53b5-489d-4dc5-87d4-63ff3a257ca1#%20%E3%80%8AAdversarial%20Examples%20for%20CNN-Based%20Malware%20Detectors%E3%80%8B">https://www.yuque.com/docs/share/377a53b5-489d-4dc5-87d4-63ff3a257ca1?# 《Adversarial Examples for CNN-Based<br>Malware Detectors》</a></p>
+<h2 id="DeepDetectNet-vs-RLAttackNet-An-adversarial-method-to-improve-deep-learningbased-static-malware-detection-model"><a href="#DeepDetectNet-vs-RLAttackNet-An-adversarial-method-to-improve-deep-learningbased-static-malware-detection-model" class="headerlink" title="DeepDetectNet vs RLAttackNet: An adversarial method to improve deep learningbased static malware detection model"></a>DeepDetectNet vs RLAttackNet: An adversarial method to improve deep learningbased static malware detection model</h2><p>Yong Fang等人提出使用强化学习对深度学习模型进行黑盒攻击，首先训练一个静态PE检测的深度学习模型（特征是Import Functions Feature，General Information Feature，Bytes Entropy Feature），AUC率高达0.989，接着使用强化学习生成对抗样本，agent将DDQN与Dueling DQN结合在一起，action采用的确定的操作，最后用生成的对抗样本对模型进行重训练，使得攻击成功率显著降低。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/9ebb0864-4a0b-4980-b17f-11e716d5ed4f#%20%E3%80%8ADeepDetectNet%20vs%20RLAttackNet:%20An%20adversarial%20method%20to%20improve%20deep%20learningbased%20static%20malware%20detection%20model%E3%80%8B">https://www.yuque.com/docs/share/9ebb0864-4a0b-4980-b17f-11e716d5ed4f?# 《DeepDetectNet vs RLAttackNet: An adversarial method to improve deep learningbased static malware detection model》</a></p>
+<h2 id="Evading-API-Call-Sequence-Based-Malware-Classifiers"><a href="#Evading-API-Call-Sequence-Based-Malware-Classifiers" class="headerlink" title="Evading API Call Sequence Based Malware Classifiers"></a>Evading API Call Sequence Based Malware Classifiers</h2><p>Fenil Fadadu等人提出一种从两个level对基于API序列的多个检测模型进行黑盒攻击生成对抗样本，该方法主要克服了Rosenberg et al提出的方法的缺陷，去掉了configuration files的overhead和不会超过一分就不检测了，作者展示了两种攻击，对于特征层面，在每次迭代，选择对应的api能够最大化分数函数的，对于可执行文件层面，使用IAT hooking对文件所调用api进行修改，实验结果显示方法相比Rosenberg et al的方法效果好。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/3a119117-6ada-48c1-9623-3f75f92664ac#%20%E3%80%8AEvading%20API%20Call%20Sequence%20Based%20Malware%20Classifiers%E3%80%8B">https://www.yuque.com/docs/share/3a119117-6ada-48c1-9623-3f75f92664ac?# 《Evading API Call Sequence Based Malware Classifiers》</a></p>
+<h2 id="SoK-Arms-Race-in-Adversarial-Malware-Detection"><a href="#SoK-Arms-Race-in-Adversarial-Malware-Detection" class="headerlink" title="SoK: Arms Race in Adversarial Malware Detection"></a>SoK: Arms Race in Adversarial Malware Detection</h2><p>systematize the field of Adversarial Malware Detection (AMD) through the lens of a unified framework of assumptions, attacks, defenses and security properties<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/a00b3c20-fa04-4ff8-9e08-7e2b3f4e02dd#%20%E3%80%8ASoK:%20Arms%20Race%20in%20Adversarial%20Malware%20Detection%E3%80%8B">https://www.yuque.com/docs/share/a00b3c20-fa04-4ff8-9e08-7e2b3f4e02dd?# 《SoK: Arms Race in Adversarial Malware Detection》</a></p>
+<h2 id="Enhancing-Deep-Neural-Networks-Against-Adversarial-Malware-Examples"><a href="#Enhancing-Deep-Neural-Networks-Against-Adversarial-Malware-Examples" class="headerlink" title="Enhancing Deep Neural Networks Against Adversarial Malware Examples"></a>Enhancing Deep Neural Networks Against Adversarial Malware Examples</h2><p>Deqiang Li等人提出一种鲁棒的对抗防御方法抵抗对抗绕过攻击，首先对训练数据进行预处理使得训练数据变得balance，接着通过输入tranformation和对特征进行denoising autoencoder生成鲁棒的特征语义，并且使用对抗训练（包括对抗正则化）和集成学习的方法来增加防御模型的鲁棒性<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/18d94ba6-611f-4ed1-987a-7abb5e3cf21c#%20%E3%80%8AEnhancing%20Deep%20Neural%20Networks%20Against%20Adversarial%20Malware%20Examples%E3%80%8B">https://www.yuque.com/docs/share/18d94ba6-611f-4ed1-987a-7abb5e3cf21c?# 《Enhancing Deep Neural Networks Against<br>Adversarial Malware Examples》</a></p>
+<h2 id="Adversarial-Machine-Learning-in-Malware-Detection-Arms-Race-between-Evasion-Attack-and-Defense"><a href="#Adversarial-Machine-Learning-in-Malware-Detection-Arms-Race-between-Evasion-Attack-and-Defense" class="headerlink" title="Adversarial Machine Learning in Malware Detection: Arms Race between Evasion Attack and Defense"></a>Adversarial Machine Learning in Malware Detection: Arms Race between Evasion Attack and Defense</h2><p>Lingwei Chen等人提出使用基于修改API Call的黑盒攻击方法去绕过线性检测模型，它首先通过最大相关算法确定与恶意分类相关大的API集合M和与善意分类相关大的API集合B，对其排序，攻击时每次迭代选择M中的API去消除，选择B中的API进行添加，从两种中选择对数据集产生误分类最大的操作,直到所消耗的cost超过一个阈值或者没有可以进行增加和删除的API停止<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/bf1f2c76-5d64-412e-88bb-11458b8230f5#%20%E3%80%8AAdversarial%20Machine%20Learning%20in%20Malware%20Detection:%20Arms%20Race%20between%20Evasion%20Attack%20and%20Defense%E3%80%8B">https://www.yuque.com/docs/share/bf1f2c76-5d64-412e-88bb-11458b8230f5?# 《Adversarial Machine Learning in Malware Detection: Arms Race between Evasion Attack and Defense》</a></p>
+<h2 id="Adversarially-Robust-Malware-Detection-Using-Monotonic-Classification"><a href="#Adversarially-Robust-Malware-Detection-Using-Monotonic-Classification" class="headerlink" title="Adversarially Robust Malware Detection Using Monotonic Classification"></a>Adversarially Robust Malware Detection Using Monotonic Classification</h2><p>Inigo Incer等人提出使用单调特征训练出来的单调模型更鲁棒，能够抵抗绕过攻击。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/386ac34e-a603-4d3b-98fa-84413d94907a#%20%E3%80%8AAdversarially%20Robust%20Malware%20Detection%20Using%20Monotonic%20Classification%E3%80%8B">https://www.yuque.com/docs/share/386ac34e-a603-4d3b-98fa-84413d94907a?# 《Adversarially Robust Malware Detection Using Monotonic Classification》</a></p>
+<h1 id="组会分享"><a href="#组会分享" class="headerlink" title="组会分享"></a>组会分享</h1><h2 id="AntiFuzz-Impeding-Fuzzing-Audits-of-Binary-Executables"><a href="#AntiFuzz-Impeding-Fuzzing-Audits-of-Binary-Executables" class="headerlink" title="AntiFuzz: Impeding Fuzzing Audits of Binary Executables"></a>AntiFuzz: Impeding Fuzzing Audits of Binary Executables</h2><p>在本文中，作者介绍了几种技术来保护二进制可执行文件免受fuzzer的分析。更具体地说，作者对fuzzer的基本假设进行了系统分析，并针对每种假设制定了一般对策。请注意，这些技术并非旨在针对特定的fuzz工具，而是针对所有fuzz工具必不可少的一般假设（相当于所有fuzzer的共性特征）。我们的评估表明，这些技术有效地阻止了模糊检查，同时引入了可忽略的性能开销。就像混淆技术增加了发现漏洞所需的人工量一样，我们的技术也使基于自动模糊测试的方法变得无效。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/7f7095a8-fec1-4158-8986-613a3fc199e1#%20%E3%80%8A%E8%AE%BA%E6%96%87%E5%88%86%E6%9E%90%E3%80%8B">https://www.yuque.com/docs/share/7f7095a8-fec1-4158-8986-613a3fc199e1?# 《论文分析》</a></p>
+<h2 id="SAVIOR-Securing-Autonomous-Vehicles-with-Robust-Physical-Invariants"><a href="#SAVIOR-Securing-Autonomous-Vehicles-with-Robust-Physical-Invariants" class="headerlink" title="SAVIOR: Securing Autonomous Vehicles with Robust Physical Invariants"></a>SAVIOR: Securing Autonomous Vehicles with Robust Physical Invariants</h2><p>在本文中，我们介绍了SAVIOR：一种用强大物理不变量来保护自动驾驶汽车的架构，我们实施并验证了适用于航空和地面车辆的两种流行的开源控制器，并证明了其有效性。<br><a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/0adcfad7-001e-402f-9b0e-7f052da4e8d1#%20%E3%80%8ASAVIOR:Securing%20Autonomous%20Vehicles%20with%20Robust%20Physical%20Invariants%E3%80%8B">https://www.yuque.com/docs/share/0adcfad7-001e-402f-9b0e-7f052da4e8d1?# 《SAVIOR:Securing Autonomous Vehicles with Robust Physical Invariants》</a></p>
+<h1 id="恶意软件对抗方法总结"><a href="#恶意软件对抗方法总结" class="headerlink" title="恶意软件对抗方法总结"></a>恶意软件对抗方法总结</h1><table>
+<thead>
+<tr>
+<th><strong>恶意软件攻击绕过方式</strong></th>
+<th><strong>list of manipulations</strong></th>
+<th><strong>which parts? (header/section/all?)</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>import_function_add</td>
+<td>adding a function to the import address table that is never used</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td>section_rename</td>
+<td>manipulating existing section names</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td>section_add</td>
+<td>creating new (unused) sections</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td>section_name_append</td>
+<td>append a random section name to the section table of PE ﬁle</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td>section_append</td>
+<td>appending bytes to extra space at the end of sections</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td>New_Entry_Point</td>
+<td>creating a new entry point which immediately jumps to the original entry point</td>
+<td><strong>all</strong></td>
+</tr>
+<tr>
+<td>remove_signature</td>
+<td>removing signature information</td>
+<td><strong>header</strong></td>
+</tr>
+<tr>
+<td>remove_debug / manipulate debug</td>
+<td>manipulating / remove debug info</td>
+<td><strong>header</strong></td>
+</tr>
+<tr>
+<td>upx_pack</td>
+<td>pack the file</td>
+<td><strong>all</strong></td>
+</tr>
+<tr>
+<td>upx_unpack</td>
+<td>unpack the file</td>
+<td><strong>all</strong></td>
+</tr>
+<tr>
+<td>modify_checksum</td>
+<td>modifying (breaking) header checksum</td>
+<td><strong>header</strong></td>
+</tr>
+<tr>
+<td>overlay_append</td>
+<td>appending bytes to the overlay (end of PE file)</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td>time_rename</td>
+<td>Modifying the time and date stamps in PE header</td>
+<td><strong>header</strong></td>
+</tr>
+<tr>
+<td>break_optional_header</td>
+<td>Amending some unimportant symbols in optional header, such as minor image version, the number of rva and size, etc.</td>
+<td><strong>header</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Modifying the size of raw data in section (section_reoder)</td>
+<td><strong>header</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Rebuilding content in the section</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td>resource_rebuild</td>
+<td>Reordering the resources in PE files such as some modifiable necessary information (resource_rebuild)</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td>DOS_header_alter</td>
+<td>Altering some unimportant symbols in DOS header, such as checksum, etc</td>
+<td><strong>header</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Dropper</td>
+<td><strong>all</strong></td>
+</tr>
+<tr>
+<td>Code Randomization</td>
+<td>Code Randomization(Replace instruction sequence with semantically equivalent one)</td>
+<td><strong>all</strong></td>
+</tr>
+<tr>
+<td>Code Displacement</td>
+<td>code displacement(replace them with semantic nops)</td>
+<td><strong>all</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>insert semantic nops</td>
+<td><strong>all</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Inject of benign content at the end of the file or the sections</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Obfusmal,Stealmal,Hollowmal (类似混淆)</td>
+<td><strong>all</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Occlusion of Important Bytes</td>
+<td><strong>all</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>inject semantic Nops into CFG blocks</td>
+<td><strong>all</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Adding irelvent API call to the API call list</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>generate irreverent APIs and insert them into API Call sequences</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Eliminating and Adding API Call</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Appending by optimized bytes</td>
+<td><strong>section</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Modify specific regions of the DOS header with optimized bytes</td>
+<td><strong>header</strong></td>
+</tr>
+</tbody></table>
+
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://p1n9.cn" rel="external nofollow noreferrer">P1n9</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://p1n9.cn/2022/02/27/lun-wen-yue-du-fen-xiang/">http://p1n9.cn/2022/02/27/lun-wen-yue-du-fen-xiang/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="http://p1n9.cn" target="_blank">P1n9</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E5%AF%B9%E6%8A%97/">
+                                    <span class="chip bg-color">恶意软件对抗</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">
+                                    <span class="chip bg-color">机器学习</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="https://image.p1n9.cn/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'AyuymwyNaLFfImI9Q3TNPVAN-gzGzoHsz',
+        appKey: 'xx1nOrSBta51mL5WB1exTdOs',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go'
+    });
+</script>
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2022/02/27/lun-wen-yue-du-fen-xiang/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://image.p1n9.cn/featureimages/8.jpg" class="responsive-img" alt="论文阅读分享">
+                        
+                        <span class="card-title">论文阅读分享</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            恶意软件对抗研究When Malware is Packin’ Heat; Limits of Machine Learning Classifiers Based on Static Analysis Features机器学习快速发展，当
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/" class="post-category">
+                                    二进制安全
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E5%AF%B9%E6%8A%97/">
+                        <span class="chip bg-color">恶意软件对抗</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">
+                        <span class="chip bg-color">机器学习</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/02/27/e-yi-dai-ma-jing-tai-fen-xi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://image.p1n9.cn/featureimages/9.jpg" class="responsive-img" alt="恶意代码静态分析">
+                        
+                        <span class="card-title">恶意代码静态分析</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+一、传统检测方法
+1. 基于恶意代码的特征码作为检测特征值的提取选择具体如下：(1) 特定子串：从计算机病毒体内提取、为病毒所特有的特征串。如特定提示信息，特定签名信息等。例如大麻病毒的提示为：“Your PC is now stoned
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/" class="post-category">
+                                    二进制安全
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%81%B6%E6%84%8F%E4%BB%A3%E7%A0%81%E6%A3%80%E6%B5%8B/">
+                        <span class="chip bg-color">恶意代码检测</span>
+                    </a>
+                    
+                    <a href="/tags/%E9%98%B2%E5%BE%A1/">
+                        <span class="chip bg-color">防御</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: P1n9<br />'
+            + '文章作者: P1n9<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="https://image.p1n9.cn/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+    <footer class="page-footer bg-color">
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020</span>
+            <a href="http://p1n9.cn" target="_blank">P1n9</a>
+			&nbsp;&nbsp;
+            
+            <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
+                <a href="http://www.beian.miit.gov.cn" target="_blank">晋ICP备20001718号-2</a>
+            </span>
+            
+			<br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">63.4k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "3";
+                    var startDate = "1";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/zdy/zdy.github.io" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:643684107@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=643684107" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 643684107" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="https://image.p1n9.cn/materialize/materialize.min.js"></script>
+    <script src="https://image.p1n9.cn/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://image.p1n9.cn/aos/aos.js"></script>
+    <script src="https://image.p1n9.cn/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://image.p1n9.cn/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LXJ93MF8W5"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-LXJ93MF8W5');
+</script>
+
+
+    <!-- Baidu Analytics -->
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?e1b8c0884f83ab30bdc4fb0fcd4c7b44";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="https://image.p1n9.cn/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="https://image.p1n9.cn/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="https://image.p1n9.cn/background/canvas-nest.js"></script>
+    
+
+    
+
+    
+    <script type="text/javascript" src="https://image.p1n9.cn/background/ribbon-dynamic.js" async="async"></script>
+    
+    
+    
+    <script src="https://image.p1n9.cn/instantpage/instantpage.js" type="module"></script>
+    
+	
+	<!-- 页面点击特效 -->
+	<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/js/click-word.js"></script>
+</body>
+
+</html>
